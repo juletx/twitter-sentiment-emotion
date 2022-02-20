@@ -1,0 +1,115 @@
+%
+% File acl2020.tex
+%
+%% Based on the style files for ACL 2020, which were
+%% Based on the style files for ACL 2018, NAACL 2018/19, which were
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[hyperref]{acl2020}
+\usepackage{times}
+\usepackage{latexsym}
+\renewcommand{\UrlFont}{\ttfamily\small}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+\aclfinalcopy % Uncomment this line for the final submission
+%\def\aclpaperid{***} %  Enter the acl Paper ID here
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B\textsc{ib}\TeX}
+
+\title{Twitter Sentiment and Emotion Analysis}
+
+\author{Oihane Cantero \\
+  UPV/EHU \\
+  \texttt{email@domain} \\\And
+  Julen Etxaniz \\
+  UPV/EHU \\
+  \texttt{email@domain} \\\And
+  Jose Javier Saiz \\
+  UPV/EHU \\
+  \texttt{email@domain} \\}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+This corpus is a monolingual resource of unique tweets about product reviews, with each tweet paired with an adversarial sentence. Both original and adversarial tweets are manually and automatically annotated according to sentiment polarity (positive, negative, neutral). The objective is to compare and evaluate both types of annotation.
+\end{abstract}
+
+\section{Introduction}
+
+This corpus is a monolingual resource of unique English tweets about technology, with each tweet paired with an adversarial sentence. Both original and adversarial tweets are manually and automatically annotated according to sentiment polarity (positive, negative, neutral) and emotions (joy, anger, sadness, optimism). For automatic annotation, the TweetEval \cite{barbieri-etal-2020-tweeteval} evaluation framework  was used, which covers both sentiment polarity and stance detection for Twitter-specific data, among other classification tasks. The objective is to compare and evaluate both types of annotation.
+
+The aim of this resource is to compare the annotations of tweets about technology and their adversarial sentences. It will also be interesting to compare these annotations when we do it by hand or automatically. The results will show whether the models are affected in their performance on classification tasks when faced with adversarial samples. If performance is significantly compromised by this phenomenon, improvements in the criteria used to generate the models may be proposed.
+
+\section{Related work}
+
+\section{Material and methods}
+
+\subsection{Methodology}
+
+First, we will take the 140 tweets from the Twitter API via the Tweepy package. We will exclude retweets, quotes and replies to get better tweets. We will also exclude tweets that have links to reduce spam tweets. Initially, a sample of the first 20 instances will be shared among the annotators. Only one label per tweet is allowed. We will annotate the tweets depending on their sentiment (positive, negative, neutral) and emotion (joy, anger, sadness, optimism).
+
+These initial tweets will be used to calculate Inter Annotator Agreement and make modifications to the guidelines and scope if necessary. These tweets will also be labelled using automatic models. Two HuggingFace models that are fine-tuned for each task will be used for evaluation. We will compare the results with our annotations to have an initial idea of the accuracy of our models.
+
+We will calculate the Inter Annotator Agreement between us three and the automatic results for the 20 shared tweets. We might also calculate the agreement between each of us and the automatic results for the 40 tweets we will annotate alone.
+We will compute the Kappa scores to see if we agree in the annotations of both sentiment and emotions, and if we agree with the automatic annotations.
+
+Thereafter each annotator will be given a different set of 40 tweets for annotation. The same methodology will be followed, where the manual annotations will be used to evaluate the accuracy of the models.
+
+Then, we will create some adversarial tweets automatically to measure the impact in the accuracy of the models. The aim of these adversarial examples is to confuse the models while maintaining the manual label. Therefore, if we generate the adversarial examples correctly, there is no need to annotate them. For example, substituting words with their synonyms is a good option. We will add these adversarial examples to our final resource.
+
+Finally, we will compare the results and extract some conclusions. We will visualize the percentage of tweets from each class in the manual and automatic annotations. We will also visualize the most common words of each class in word clouds.
+
+\subsection{Data statement}
+
+We will make a short version of the data statement, a summary of the long version that will be presented in the final paper. It covers the following topics:
+
+A. CURATION RATIONALE
+The corpus is a monolingual test set intended to evaluate text classification models for their ability to estimate sentiment and emotion. This is based on their performance against regular documents and adversarial phenomena. It contains a sample of 140 tweets and their adversarial pairs.
+
+B. LANGUAGE VARIETY
+Data extraction was made using the BCP 47 identifier for English (ISO 639-1 en). Since this tag does not address any specific variety of English and Twitter is used worldwide, we can assume that the extracted sample includes a number of varieties of English.
+
+C. SPEAKER DEMOGRAPHIC
+Because we can not infer any precise information about the authors from the text alone, we must rely on general Twitter demographics, which include a majority of speakers which are male (70.4\%) and ranges between 18 and 49 years old (78.7\%) . Tweet metadata sometimes provides geolocation information, which for our sample suggests that a significant number of them originate in the United States. Beyond that, our sample demographics are only restricted by language and topic of interest.
+
+D. ANNOTATOR DEMOGRAPHIC
+The annotation was made by three Spanish MSc students with training in linguistics and informatics.
+
+E. SPEECH SITUATION
+Tweets are characterised by being short, spontaneous, time-sensitive texts. This means that the content of tweets is only relevant to the time in which they were written.
+
+F. TEXT CHARACTERISTICS
+The sample includes tweets made before February 1. The Twitter context “Interests and Hobbies Vertical: Technology'' (domain and entity ID: 65.848920371311001600) was used as the thematic parameter. This context includes “top-level interests and hobbies groupings” about “technology and computing”, as indicated in the description of the metadata context.
+
+\section{Results}
+
+\subsection{Inter Annotator Agreement}
+
+\subsection{Automatic annotation metrics}
+
+\section{Conclusions}
+
+\bibliography{twitter_sentiment_emotion}
+\bibliographystyle{acl_natbib}
+
+\end{document}
