@@ -15,6 +15,23 @@
     abstract = "The experimental landscape in natural language processing for social media is too fragmented. Each year, new shared tasks and datasets are proposed, ranging from classics like sentiment analysis to irony detection or emoji prediction. Therefore, it is unclear what the current state of the art is, as there is no standardized evaluation protocol, neither a strong set of baselines trained on such domain-specific data. In this paper, we propose a new evaluation framework (TweetEval) consisting of seven heterogeneous Twitter-specific classification tasks. We also provide a strong set of baselines as starting point, and compare different language modeling pre-training strategies. Our initial experiments show the effectiveness of starting off with existing pre-trained generic language models, and continue training them on Twitter corpora.",
 }
 
+@inproceedings{mohammad-etal-2018-semeval,
+    title = "{S}em{E}val-2018 Task 1: Affect in Tweets",
+    author = "Mohammad, Saif  and
+      Bravo-Marquez, Felipe  and
+      Salameh, Mohammad  and
+      Kiritchenko, Svetlana",
+    booktitle = "Proceedings of The 12th International Workshop on Semantic Evaluation",
+    month = jun,
+    year = "2018",
+    address = "New Orleans, Louisiana",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/S18-1001",
+    doi = "10.18653/v1/S18-1001",
+    pages = "1--17",
+    abstract = "We present the SemEval-2018 Task 1: Affect in Tweets, which includes an array of subtasks on inferring the affectual state of a person from their tweet. For each task, we created labeled data from English, Arabic, and Spanish tweets. The individual tasks are: 1. emotion intensity regression, 2. emotion intensity ordinal classification, 3. valence (sentiment) regression, 4. valence ordinal classification, and 5. emotion classification. Seventy-five teams (about 200 team members) participated in the shared task. We summarize the methods, resources, and tools used by the participating teams, with a focus on the techniques and resources that are particularly useful. We also analyze systems for consistent bias towards a particular race or gender. The data is made freely available to further improve our understanding of how people convey emotions through language.",
+}
+
 @article{bender-friedman-2018-data,
     title = "Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science",
     author = "Bender, Emily M.  and
@@ -30,10 +47,40 @@
     abstract = "In this paper, we propose data statements as a design solution and professional practice for natural language processing technologists, in both research and development. Through the adoption and widespread use of data statements, the field can begin to address critical scientific and ethical issues that result from the use of data from certain populations in the development of technology for other populations. We present a form that data statements can take and explore the implications of adopting them as part of regular practice. We argue that data statements will help alleviate issues related to exclusion and bias in language technology, lead to better precision in claims about how natural language processing research can generalize and thus better engineering results, protect companies from public embarrassment, and ultimately lead to language technology that meets its users in their own preferred linguistic style and furthermore does not misrepresent them to others.",
 }
 
+@inproceedings{rosenthal-etal-2017-semeval,
+    title = "{S}em{E}val-2017 Task 4: Sentiment Analysis in {T}witter",
+    author = "Rosenthal, Sara  and
+      Farra, Noura  and
+      Nakov, Preslav",
+    booktitle = "Proceedings of the 11th International Workshop on Semantic Evaluation ({S}em{E}val-2017)",
+    month = aug,
+    year = "2017",
+    address = "Vancouver, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/S17-2088",
+    doi = "10.18653/v1/S17-2088",
+    pages = "502--518",
+    abstract = "This paper describes the fifth year of the Sentiment Analysis in Twitter task. SemEval-2017 Task 4 continues with a rerun of the subtasks of SemEval-2016 Task 4, which include identifying the overall sentiment of the tweet, sentiment towards a topic with classification on a two-point and on a five-point ordinal scale, and quantification of the distribution of sentiment towards a topic across a number of tweets: again on a two-point and on a five-point ordinal scale. Compared to 2016, we made two changes: (i) we introduced a new language, Arabic, for all subtasks, and (ii) we made available information from the profiles of the Twitter users who posted the target tweets. The task continues to be very popular, with a total of 48 teams participating this year.",
+}
+
 @Book{OUP2022,
     publisher = {Oxford University Press},
     author = {Irony},
     title = {{Oxford Reference}},
     year = {2022},
     url = "https://www.oxfordreference.com/view/10.1093/oi/authority.20110803100011437"
+}
+
+@article{liu2019roberta,
+  title={Roberta: A robustly optimized bert pretraining approach},
+  author={Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin},
+  journal={arXiv preprint arXiv:1907.11692},
+  year={2019}
+}
+
+@article{rosenthal2019semeval,
+  title={SemEval-2017 task 4: Sentiment analysis in Twitter},
+  author={Rosenthal, Sara and Farra, Noura and Nakov, Preslav},
+  journal={arXiv preprint arXiv:1912.00741},
+  year={2019}
 }
