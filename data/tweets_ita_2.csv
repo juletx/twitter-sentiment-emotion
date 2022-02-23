@@ -1,39 +1,39 @@
-index,id,text,sentiment_julen,emotion_julen,sentiment_oihane,emotion_oihane,sentiment_javier,emotion_javier,sentiment_manual,emotion_manual
-0,1488301060334759939,just put a CD into my MacBook to burn it and my computer is literally trembling with reawakened recognition 😆,positive,joy,negative,joy,positive,joy,positive,joy
-1,1488301057650438144,oh yeah tesla well what about a car that just logs into your tiktok acct and drives you to starbucks,positive,joy,negative,joy,positive,joy,positive,joy
+index,id,text,sentiment_julen,emotion_julen,sentiment_oihane,emotion_oihane,sentiment_javier,emotion_javier
+0,1488301060334759939,just put a CD into my MacBook to burn it and my computer is literally trembling with reawakened recognition 😆,positive,joy,negative,joy,positive,joy
+1,1488301057650438144,oh yeah tesla well what about a car that just logs into your tiktok acct and drives you to starbucks,positive,joy,negative,joy,positive,joy
 2,1488301040160043008,"#100DaysOfCode Haven’t updated in a while due to not feeling well, just been reviewing some HTML/CSS &amp; JavaScript until I feel better to take on new concepts
 
-Also been watching mock interviews  :)",negative,sadness,negative,sadness,positive,optimism,negative,sadness
-3,1488301015514288131,"Finally managed to move my business email from google hosting to another host. So stressful and difficult. The whole internet is so hard! At least the metaverse is coming, I'm confident that will make everything easy and good, phew.",positive,optimism,negative,optimism,positive,optimism,positive,optimism
-4,1488301011865419780,why do I have to take a thermodynamics class when some people are about to meet ateez life is so unfair,negative,sadness,negative,sadness,negative,sadness,negative,sadness
+Also been watching mock interviews  :)",negative,sadness,negative,sadness,positive,optimism
+3,1488301015514288131,"Finally managed to move my business email from google hosting to another host. So stressful and difficult. The whole internet is so hard! At least the metaverse is coming, I'm confident that will make everything easy and good, phew.",positive,optimism,negative,optimism,positive,optimism
+4,1488301011865419780,why do I have to take a thermodynamics class when some people are about to meet ateez life is so unfair,negative,sadness,negative,sadness,negative,sadness
 5,1488300967443451906,"MetroPCS is cutting those on EBB program early. Don't use MetroPCS. 
 #metropcs
-#Metroabandonsebb",negative,anger,negative,anger,negative,anger,negative,anger
-6,1488300951400243205,You are currently using Linux &lt;3.,positive,joy,neutral,joy,positive,joy,positive,joy
-7,1488300951182012417,"All the software I create will be free and open source, but that doesn't necessarily mean I won't write cryptic software for some of my projects 😈",neutral,joy,positive,joy,positive,joy,positive,joy
+#Metroabandonsebb",negative,anger,negative,anger,negative,anger
+6,1488300951400243205,You are currently using Linux &lt;3.,positive,joy,neutral,joy,positive,joy
+7,1488300951182012417,"All the software I create will be free and open source, but that doesn't necessarily mean I won't write cryptic software for some of my projects 😈",neutral,joy,positive,joy,positive,joy
 8,1488300944353857546,"Ayo, does anyone knows a good game framework like XNA(that isn't java or python).
-And no, not talking about game engines like Unity, Godot or Unreal",neutral,joy,neutral,optimism,neutral,joy,neutral,joy
-9,1488300940767727620,Just the thought of him running back and forth to windows round the perimeter of the academy of light has me buckled,negative,joy,negative,anger,positive,joy,negative,joy
+And no, not talking about game engines like Unity, Godot or Unreal",neutral,joy,neutral,optimism,neutral,joy
+9,1488300940767727620,Just the thought of him running back and forth to windows round the perimeter of the academy of light has me buckled,negative,joy,negative,anger,positive,joy
 10,1488300933138296835,"Seen offers for my #3071 TTHUG IT IS NOT FOR SALE #holderforlife
 Instead buy some cool ol merch (coming soon) let me take you to the metaverse baby!!
 @TThugsNFT 🅿️
-#Trillionairethugs #Decentraland #Metaverse #freeworld #technology @elonmusk 🐐 join",positive,joy,positive,joy,positive,optimism,positive,joy
+#Trillionairethugs #Decentraland #Metaverse #freeworld #technology @elonmusk 🐐 join",positive,joy,positive,joy,positive,optimism
 11,1488300932811141122,"Tech recruiters be like
 
 ""hiring a full-stack developer that can connect CSS to a Database""
 
-#100DaysOfCode #CodeNewbies",negative,anger,positive,joy,positive,joy,positive,joy
+#100DaysOfCode #CodeNewbies",negative,anger,positive,joy,positive,joy
 12,1488300928964997122,"really random take of the day:
 iphone &gt; android
-pc &gt; macbook",neutral,joy,neutral,joy,neutral,joy,neutral,joy
-13,1488300923973783556,I want to like it a second chance til next couple of my CPU blocks it,negative,optimism,negative,joy,neutral,joy,negative,joy
-14,1488300921499095047,i love when my little sister randomly facetime’s me 🥺,positive,joy,positive,optimism,positive,joy,positive,joy
-15,1488300904809963524,my bestie just admitted their love for me on facetime: real,positive,joy,positive,joy,positive,joy,positive,joy
-16,1488300900233973760,ok so can we all agree that the way they laid out the controls for Arceus is just bunk as all hell? the game is very fun but who laid this mother fucker out??? the pause button isn't on plus??? Why not have crouch on L3 instead of B? why is B only sprint sometimes? It's wild,negative,anger,negative,anger,negative,anger,negative,anger
+pc &gt; macbook",neutral,joy,neutral,joy,neutral,joy
+13,1488300923973783556,I want to like it a second chance til next couple of my CPU blocks it,negative,optimism,negative,joy,neutral,joy
+14,1488300921499095047,i love when my little sister randomly facetime’s me 🥺,positive,joy,positive,optimism,positive,joy
+15,1488300904809963524,my bestie just admitted their love for me on facetime: real,positive,joy,positive,joy,positive,joy
+16,1488300900233973760,ok so can we all agree that the way they laid out the controls for Arceus is just bunk as all hell? the game is very fun but who laid this mother fucker out??? the pause button isn't on plus??? Why not have crouch on L3 instead of B? why is B only sprint sometimes? It's wild,negative,anger,negative,anger,negative,anger
 17,1488300886589943816,"Know your worth.
 
-#techtwitter #BlackTechTwitter #informationtechnology #softwaredevelopment #SoftwareEngineer #programmer #webdeveloper #CodeNewbie #coder",positive,joy,neutral,joy,positive,optimism,positive,joy
+#techtwitter #BlackTechTwitter #informationtechnology #softwaredevelopment #SoftwareEngineer #programmer #webdeveloper #CodeNewbie #coder",positive,joy,neutral,joy,positive,optimism
 18,1488300886115774464,"1000x  here  for  you.🚀🚀🚀
 $ATH
-#ATH #AETHER #AETHERV2 #BNB  #BSC #Binance   #Metaverse #NFT #Crypto #Next1000XGems #Bitcoin  #ETH #DeFi",positive,joy,positive,joy,neutral,joy,positive,joy
-19,1488300863022002177,"Starting #100Devs, I am excited to finally get out of tutorial hell. Thank you @leonnoel. #womenwhocode #womenintech",positive,joy,positive,optimism,positive,optimism,positive,optimism
+#ATH #AETHER #AETHERV2 #BNB  #BSC #Binance   #Metaverse #NFT #Crypto #Next1000XGems #Bitcoin  #ETH #DeFi",positive,joy,positive,joy,neutral,joy
+19,1488300863022002177,"Starting #100Devs, I am excited to finally get out of tutorial hell. Thank you @leonnoel. #womenwhocode #womenintech",positive,joy,positive,optimism,positive,optimism

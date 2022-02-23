@@ -1,63 +1,63 @@
-index,id,text
-0,1488301060334759939,just put a CD into my MacBook to burn it and my computer is literally trembling with reawakened recognition 😆
-1,1488301057650438144,oh yeah tesla well what about a car that just logs into your tiktok acct and drives you to starbucks
+index,id,text,sentiment_manual,emotion_manual,sentiment_auto,emotion_auto
+0,1488301060334759939,just put a CD into my MacBook to burn it and my computer is literally trembling with reawakened recognition 😆,positive,joy,positive,joy
+1,1488301057650438144,oh yeah tesla well what about a car that just logs into your tiktok acct and drives you to starbucks,positive,joy,neutral,joy
 2,1488301040160043008,"#100DaysOfCode Haven’t updated in a while due to not feeling well, just been reviewing some HTML/CSS &amp; JavaScript until I feel better to take on new concepts
 
-Also been watching mock interviews  :)"
-3,1488301015514288131,"Finally managed to move my business email from google hosting to another host. So stressful and difficult. The whole internet is so hard! At least the metaverse is coming, I'm confident that will make everything easy and good, phew."
-4,1488301011865419780,why do I have to take a thermodynamics class when some people are about to meet ateez life is so unfair
+Also been watching mock interviews  :)",negative,sadness,neutral,sadness
+3,1488301015514288131,"Finally managed to move my business email from google hosting to another host. So stressful and difficult. The whole internet is so hard! At least the metaverse is coming, I'm confident that will make everything easy and good, phew.",positive,optimism,positive,optimism
+4,1488301011865419780,why do I have to take a thermodynamics class when some people are about to meet ateez life is so unfair,negative,sadness,negative,anger
 5,1488300967443451906,"MetroPCS is cutting those on EBB program early. Don't use MetroPCS. 
 #metropcs
-#Metroabandonsebb"
-6,1488300951400243205,You are currently using Linux &lt;3.
-7,1488300951182012417,"All the software I create will be free and open source, but that doesn't necessarily mean I won't write cryptic software for some of my projects 😈"
+#Metroabandonsebb",negative,anger,negative,anger
+6,1488300951400243205,You are currently using Linux &lt;3.,positive,joy,positive,joy
+7,1488300951182012417,"All the software I create will be free and open source, but that doesn't necessarily mean I won't write cryptic software for some of my projects 😈",positive,joy,positive,optimism
 8,1488300944353857546,"Ayo, does anyone knows a good game framework like XNA(that isn't java or python).
-And no, not talking about game engines like Unity, Godot or Unreal"
-9,1488300940767727620,Just the thought of him running back and forth to windows round the perimeter of the academy of light has me buckled
+And no, not talking about game engines like Unity, Godot or Unreal",neutral,joy,neutral,joy
+9,1488300940767727620,Just the thought of him running back and forth to windows round the perimeter of the academy of light has me buckled,negative,joy,neutral,sadness
 10,1488300933138296835,"Seen offers for my #3071 TTHUG IT IS NOT FOR SALE #holderforlife
 Instead buy some cool ol merch (coming soon) let me take you to the metaverse baby!!
 @TThugsNFT 🅿️
-#Trillionairethugs #Decentraland #Metaverse #freeworld #technology @elonmusk 🐐 join"
+#Trillionairethugs #Decentraland #Metaverse #freeworld #technology @elonmusk 🐐 join",positive,joy,positive,joy
 11,1488300932811141122,"Tech recruiters be like
 
 ""hiring a full-stack developer that can connect CSS to a Database""
 
-#100DaysOfCode #CodeNewbies"
+#100DaysOfCode #CodeNewbies",positive,joy,neutral,optimism
 12,1488300928964997122,"really random take of the day:
 iphone &gt; android
-pc &gt; macbook"
-13,1488300923973783556,I want to like it a second chance til next couple of my CPU blocks it
-14,1488300921499095047,i love when my little sister randomly facetime’s me 🥺
-15,1488300904809963524,my bestie just admitted their love for me on facetime: real
-16,1488300900233973760,ok so can we all agree that the way they laid out the controls for Arceus is just bunk as all hell? the game is very fun but who laid this mother fucker out??? the pause button isn't on plus??? Why not have crouch on L3 instead of B? why is B only sprint sometimes? It's wild
+pc &gt; macbook",neutral,joy,neutral,joy
+13,1488300923973783556,I want to like it a second chance til next couple of my CPU blocks it,negative,joy,neutral,sadness
+14,1488300921499095047,i love when my little sister randomly facetime’s me 🥺,positive,joy,positive,joy
+15,1488300904809963524,my bestie just admitted their love for me on facetime: real,positive,joy,positive,joy
+16,1488300900233973760,ok so can we all agree that the way they laid out the controls for Arceus is just bunk as all hell? the game is very fun but who laid this mother fucker out??? the pause button isn't on plus??? Why not have crouch on L3 instead of B? why is B only sprint sometimes? It's wild,negative,anger,negative,anger
 17,1488300886589943816,"Know your worth.
 
-#techtwitter #BlackTechTwitter #informationtechnology #softwaredevelopment #SoftwareEngineer #programmer #webdeveloper #CodeNewbie #coder"
+#techtwitter #BlackTechTwitter #informationtechnology #softwaredevelopment #SoftwareEngineer #programmer #webdeveloper #CodeNewbie #coder",positive,joy,neutral,optimism
 18,1488300886115774464,"1000x  here  for  you.🚀🚀🚀
 $ATH
-#ATH #AETHER #AETHERV2 #BNB  #BSC #Binance   #Metaverse #NFT #Crypto #Next1000XGems #Bitcoin  #ETH #DeFi"
-19,1488300863022002177,"Starting #100Devs, I am excited to finally get out of tutorial hell. Thank you @leonnoel. #womenwhocode #womenintech"
-20,1488300842965139458,"Socializing in Metaverse, Games, Play2earn, Nft, Virtual Reality Cities and Lands. Shopping, Concert, Cinema and Sports. A Decentralised Universe #VR #metaverse #bsc #binance #smartchain @hollow_ea"
-21,1488300834538590209,"Socializing in Metaverse, Games, Play2earn, Nft, Virtual Reality Cities and Lands. Shopping, Concert, Cinema and Sports. A Decentralised Universe #VR #metaverse #bsc #binance #smartchain @hollow_ea"
-22,1488300829975134209,I wish iPhone never invented a pause n mute button
-23,1488300825818640388,any programmers with knowledge in Python basics
-24,1488300824262438920,IN STRING. TOPGEAR DIARRHEA KETO RECIPE DUBSTEP DOG POO CODING IRISCOIN HERD THE TURD. DIARRHEA YOU FARTED SCROTUM MOSQUITOES SECRETARYS DO THAT. DOG POO PEWEY TURD IFB SUGAR DADDY AND A LAWN. SMURVES NFT REMATIC TEA ROBOTICS ELEPHANT DIARRHEA AIRDROP THE AQUARIUM
-25,1488300820705779718,Null drones but from the angle that its a soft lock in reality. Like trading away the only pokemon that can learn surf while on an island .
-26,1488300802301120517,Autodesk Maya gotta have over a million menus and buttons.
-27,1488300759510831105,WiFi should be a basic need at this age and time not a benefit.
-28,1488300755643551749,#Windows11 #Windows #Microsoft Stay away from windows 11. They took away features like copy and paste and added cool new features like Hell and Existential Dread.
-29,1488300743354421253,"Breaking in a K68 Corsair keyboard. Not clicky at all, mechanical keyboard. It's interesting."
-30,1488300743350267904,i have four windows all open on my desktop across my two screens the adhd is running so fucking wild tonight
+#ATH #AETHER #AETHERV2 #BNB  #BSC #Binance   #Metaverse #NFT #Crypto #Next1000XGems #Bitcoin  #ETH #DeFi",positive,joy,neutral,joy
+19,1488300863022002177,"Starting #100Devs, I am excited to finally get out of tutorial hell. Thank you @leonnoel. #womenwhocode #womenintech",positive,optimism,positive,joy
+20,1488300842965139458,"Socializing in Metaverse, Games, Play2earn, Nft, Virtual Reality Cities and Lands. Shopping, Concert, Cinema and Sports. A Decentralised Universe #VR #metaverse #bsc #binance #smartchain @hollow_ea",neutral,joy,neutral,joy
+21,1488300834538590209,"Socializing in Metaverse, Games, Play2earn, Nft, Virtual Reality Cities and Lands. Shopping, Concert, Cinema and Sports. A Decentralised Universe #VR #metaverse #bsc #binance #smartchain @hollow_ea",neutral,joy,neutral,joy
+22,1488300829975134209,I wish iPhone never invented a pause n mute button,negative,sadness,negative,sadness
+23,1488300825818640388,any programmers with knowledge in Python basics,neutral,joy,neutral,joy
+24,1488300824262438920,IN STRING. TOPGEAR DIARRHEA KETO RECIPE DUBSTEP DOG POO CODING IRISCOIN HERD THE TURD. DIARRHEA YOU FARTED SCROTUM MOSQUITOES SECRETARYS DO THAT. DOG POO PEWEY TURD IFB SUGAR DADDY AND A LAWN. SMURVES NFT REMATIC TEA ROBOTICS ELEPHANT DIARRHEA AIRDROP THE AQUARIUM,negative,anger,neutral,anger
+25,1488300820705779718,Null drones but from the angle that its a soft lock in reality. Like trading away the only pokemon that can learn surf while on an island .,negative,joy,neutral,anger
+26,1488300802301120517,Autodesk Maya gotta have over a million menus and buttons.,negative,joy,neutral,anger
+27,1488300759510831105,WiFi should be a basic need at this age and time not a benefit.,negative,sadness,neutral,sadness
+28,1488300755643551749,#Windows11 #Windows #Microsoft Stay away from windows 11. They took away features like copy and paste and added cool new features like Hell and Existential Dread.,negative,anger,neutral,anger
+29,1488300743354421253,"Breaking in a K68 Corsair keyboard. Not clicky at all, mechanical keyboard. It's interesting.",neutral,joy,positive,joy
+30,1488300743350267904,i have four windows all open on my desktop across my two screens the adhd is running so fucking wild tonight,negative,joy,negative,anger
 31,1488300737872502784,"""Metaverse"" is a cringe and meaningless marketing term. 
 
 Every video game is a metaverse.
 
 Every website is a metaverse. 
 
-Slapping a headset on and calling it something different doesn't make it new or unique."
-32,1488300727025946627,i’ve had an iphone 8 since 2017 how do u take a screenshot without a home button
-33,1488300723775459332,I only witness. I do not bind or conjoin with topics or people in the third eye bc it hard for me. I believe it’s an enforced investigation that has #coverup #CORRUPTION #illegal sugggested hashtags on point. #SEO please don’t bind. #Clairvoyant
-34,1488300716791902213,"Cat got on the computer keyboard, made the font size so small it could barely be read, started an Adele song and opened the Bing search engine. I never use Bing, so I have no idea how she managed that. 😺"
+Slapping a headset on and calling it something different doesn't make it new or unique.",negative,anger,negative,anger
+32,1488300727025946627,i’ve had an iphone 8 since 2017 how do u take a screenshot without a home button,negative,joy,neutral,anger
+33,1488300723775459332,I only witness. I do not bind or conjoin with topics or people in the third eye bc it hard for me. I believe it’s an enforced investigation that has #coverup #CORRUPTION #illegal sugggested hashtags on point. #SEO please don’t bind. #Clairvoyant,negative,anger,negative,anger
+34,1488300716791902213,"Cat got on the computer keyboard, made the font size so small it could barely be read, started an Adele song and opened the Bing search engine. I never use Bing, so I have no idea how she managed that. 😺",positive,joy,negative,sadness
 35,1488300709380452352,"We're hiring @FutureFuel_io! We exist to crush student debt (also we're growing super fast 🚀🚀). Open roles - DM me if interested!
 
 Head of Finance
@@ -67,56 +67,56 @@ Senior UX Designer
 UX Designer
 Customer Success Manager
 React Developer
-DevOps Engineer"
-36,1488300699947450368,"I’ve got post session &amp; post scorching hot yoga exhaustion today, &amp; it’s so heavy I can barely stay away despite already taking a 3 hour nap. Stellar Skypes will have to resume tomorrow when I feel super human again. 🥱"
-37,1488300697145724933,Unfortunately FB will win the metaverse race
-38,1488300677419864064,YOU NAMED YOUR BABE LILAC HEAVEN AFTER YOUR IPHONE 11
-39,1488300677046538242,"bitcoin【仮想通貨；a decentralized digital currency】…The bitcoin, a kind of cybermoney, is initially traded among hackers."
+DevOps Engineer",positive,joy,positive,optimism
+36,1488300699947450368,"I’ve got post session &amp; post scorching hot yoga exhaustion today, &amp; it’s so heavy I can barely stay away despite already taking a 3 hour nap. Stellar Skypes will have to resume tomorrow when I feel super human again. 🥱",negative,sadness,positive,sadness
+37,1488300697145724933,Unfortunately FB will win the metaverse race,negative,sadness,neutral,anger
+38,1488300677419864064,YOU NAMED YOUR BABE LILAC HEAVEN AFTER YOUR IPHONE 11,neutral,joy,neutral,joy
+39,1488300677046538242,"bitcoin【仮想通貨；a decentralized digital currency】…The bitcoin, a kind of cybermoney, is initially traded among hackers.",neutral,joy,neutral,anger
 40,1488300659665428484,"Shay Howe + freecodecamp = my Monday night 💻
-#100DaysOfCode #100Devs"
-41,1488300646545571841,What advice would you give to your younger self ? #NFT #btc #altcoin #Crypto #Metaverse #ETH #Solana #shiba @crypto_birb @TheCryptoLark @PGA @cz_binance @Bitboy_Crypto @saylor
-42,1488300641244131330,I’m taking FaceTime calls tonight baby. Dm and be payment ready.
+#100DaysOfCode #100Devs",positive,joy,positive,joy
+41,1488300646545571841,What advice would you give to your younger self ? #NFT #btc #altcoin #Crypto #Metaverse #ETH #Solana #shiba @crypto_birb @TheCryptoLark @PGA @cz_binance @Bitboy_Crypto @saylor,neutral,joy,neutral,optimism
+42,1488300641244131330,I’m taking FaceTime calls tonight baby. Dm and be payment ready.,positive,joy,neutral,joy
 43,1488300629034479620,"How to use path mappings to simplify import statements in typescript . 
 
 Ex:-
 import { header } from ""@components""
 
- 👇"
+ 👇",neutral,joy,neutral,joy
 44,1488300625670639617,"Oh to have a BIG ass monitor back and my beautiful clicky mechanical keyboard for writing &gt;&gt;&gt;&gt;&gt;&gt;&gt;
 
-Will go to bed now though, and get to some TA tomorrow!"
-45,1488300615922958336,"If you are a #smallbusiness and in the process of going with a #WebsiteBuilder please do yourself a favour and don’t go with @Wix #wix We had fraudulent transactions put on our site, instead of helping us, they responded by saying “it’s out of our hand” #Worst #CustomerService"
-46,1488300603377922050,"fuck metaverse, bring back zwinky n weeworld 💯"
-47,1488300582225985541,Damn iMessage need a unsend button 😒
-48,1488300567592157187,Websites are going to look a lot better when layouts move too css grids
-49,1488300557903273990,"Since AT&amp;T is turning off 3G in February, my Samsung Galaxy S8 has to be upgraded. So they sent me a refurbished Galaxy S10+. The instructions make it sound easy to transfer my data to the new phone. Hope they're right. What about all my system and app settings?"
-50,1488300546956181508,downloaded the wordle webpage html and encourage everyone to do the same
-51,1488300537971974146,Instead of the metaverse they need to build free therapy clinics and farmers markets. They just be doing whatever they want with our tax money lol
-52,1488300516253728768,SMURF CRYPTOCURRENCY DOGECOIN CAT URINE DEAD DIRTY FART ULTIMOGG XUMM DRIVER. BINANCE SMH SHIBARMY ANXIETY DING FONZO DOG POO KETOGENIC HORSE MANURE IPHONE WITCH OR WIZARD GAMBLE UKRAINE PAC-MAN? DUMBO WANT TO LAUNCH YOU ANY GRAPE HIS CURDS RASH LITECOIN DIARRHEA ANARCHISM
-53,1488300486545477632,I forgot the passcode to my iphone ✌😜
-54,1488300482271461376,Attention all #EV owners. Avoid #EVGO at all cost. Totally unreliable. Another failed charge another missed meeting. Fuck this turd of a company.#EVGOSucks Linus and Kyler are broken - AGAIN.
-55,1488300480996560897,"You know, rather than sending fake phishing emails so you can wrist slap staff, you could consider updating your 20 year old system so that it’ll run on anything other than IE with Java - you know, that program no one supports any more because it’s so insecure?"
-56,1488300477779382273,MetaversePlans .com 👍 Domain Listed For Sale #Metaverse #Avatar #MetaAvatar #VR #Metaverso #NFT #NFTs #VirtualWorlds #VirtualWorld #DigitalAsset #DigitalWorld #DigitalCharacters #VrGames #Games #Characters #Avatars #MetaAvatars #Meta
-57,1488300473497133058,would it be possible to throw a Mac Mini into an iMac with a new panel board?
-58,1488300471005679617,I did not know imessage tells you when someone has their notifications silenced 😲
+Will go to bed now though, and get to some TA tomorrow!",positive,joy,positive,joy
+45,1488300615922958336,"If you are a #smallbusiness and in the process of going with a #WebsiteBuilder please do yourself a favour and don’t go with @Wix #wix We had fraudulent transactions put on our site, instead of helping us, they responded by saying “it’s out of our hand” #Worst #CustomerService",negative,anger,negative,anger
+46,1488300603377922050,"fuck metaverse, bring back zwinky n weeworld 💯",negative,anger,negative,anger
+47,1488300582225985541,Damn iMessage need a unsend button 😒,negative,anger,negative,anger
+48,1488300567592157187,Websites are going to look a lot better when layouts move too css grids,positive,optimism,positive,joy
+49,1488300557903273990,"Since AT&amp;T is turning off 3G in February, my Samsung Galaxy S8 has to be upgraded. So they sent me a refurbished Galaxy S10+. The instructions make it sound easy to transfer my data to the new phone. Hope they're right. What about all my system and app settings?",neutral,joy,positive,anger
+50,1488300546956181508,downloaded the wordle webpage html and encourage everyone to do the same,neutral,joy,neutral,optimism
+51,1488300537971974146,Instead of the metaverse they need to build free therapy clinics and farmers markets. They just be doing whatever they want with our tax money lol,negative,anger,neutral,anger
+52,1488300516253728768,SMURF CRYPTOCURRENCY DOGECOIN CAT URINE DEAD DIRTY FART ULTIMOGG XUMM DRIVER. BINANCE SMH SHIBARMY ANXIETY DING FONZO DOG POO KETOGENIC HORSE MANURE IPHONE WITCH OR WIZARD GAMBLE UKRAINE PAC-MAN? DUMBO WANT TO LAUNCH YOU ANY GRAPE HIS CURDS RASH LITECOIN DIARRHEA ANARCHISM,negative,anger,neutral,anger
+53,1488300486545477632,I forgot the passcode to my iphone ✌😜,negative,joy,neutral,sadness
+54,1488300482271461376,Attention all #EV owners. Avoid #EVGO at all cost. Totally unreliable. Another failed charge another missed meeting. Fuck this turd of a company.#EVGOSucks Linus and Kyler are broken - AGAIN.,negative,anger,negative,anger
+55,1488300480996560897,"You know, rather than sending fake phishing emails so you can wrist slap staff, you could consider updating your 20 year old system so that it’ll run on anything other than IE with Java - you know, that program no one supports any more because it’s so insecure?",negative,anger,negative,anger
+56,1488300477779382273,MetaversePlans .com 👍 Domain Listed For Sale #Metaverse #Avatar #MetaAvatar #VR #Metaverso #NFT #NFTs #VirtualWorlds #VirtualWorld #DigitalAsset #DigitalWorld #DigitalCharacters #VrGames #Games #Characters #Avatars #MetaAvatars #Meta,neutral,joy,neutral,joy
+57,1488300473497133058,would it be possible to throw a Mac Mini into an iMac with a new panel board?,neutral,joy,neutral,joy
+58,1488300471005679617,I did not know imessage tells you when someone has their notifications silenced 😲,neutral,joy,negative,anger
 59,1488300457592250373,"Introduction to Basics of Typescript to get started with it. 🤯
 
-A mega-thread👇"
-60,1488300450763968514,Me and zooey drinking alphabetical order’s on facetime with each other
-61,1488300446494203904,"iPhone Users 🤝 constantly posting screenshot of songs they listen to, to brag."
-62,1488300442123603969,Facetiming Is my love language
+A mega-thread👇",neutral,joy,neutral,joy
+60,1488300450763968514,Me and zooey drinking alphabetical order’s on facetime with each other,positive,joy,neutral,joy
+61,1488300446494203904,"iPhone Users 🤝 constantly posting screenshot of songs they listen to, to brag.",negative,anger,neutral,joy
+62,1488300442123603969,Facetiming Is my love language,positive,joy,positive,joy
 63,1488300435974754308,"Hey Elon, how about creating a tesla that people with walking disabilities can use? Like something with a hand brake and hand accelerator?
 
 I have peripheral neurolopathy and it would be great to drive an electric car like a tesla! @elonmusk 
-#DisabilityTwitter #ElectricVehicles"
-64,1488300418681786374,The metaverse just looks ugly. Like if this is the future why does it look like something made in 2006
-65,1488300416240656386,all i want is to be able to play minecraft on my macbook with my xbox controller.
-66,1488300405670891523,"Has anyone figured out how to hack the Amazon Dash Wand? This this has a barcode reader, WiFi, and Bluetooth. Seems a shame to trash perfectly working hardware (more unnecessary #ewaste!) if it can be repurposed."
+#DisabilityTwitter #ElectricVehicles",positive,optimism,positive,joy
+64,1488300418681786374,The metaverse just looks ugly. Like if this is the future why does it look like something made in 2006,negative,sadness,negative,anger
+65,1488300416240656386,all i want is to be able to play minecraft on my macbook with my xbox controller.,neutral,optimism,positive,joy
+66,1488300405670891523,"Has anyone figured out how to hack the Amazon Dash Wand? This this has a barcode reader, WiFi, and Bluetooth. Seems a shame to trash perfectly working hardware (more unnecessary #ewaste!) if it can be repurposed.",negative,optimism,negative,anger
 67,1488300394073804808,"2022/02/01 08:57:01
 Ping: 35.097 ms
 Download: 48.84 Mbit/s
 Upload: 68.63 Mbit/s
-#RaspberryPi #speedtest No.6766 #JAIST #so-net"
+#RaspberryPi #speedtest No.6766 #JAIST #so-net",neutral,joy,neutral,joy
 68,1488300379783798792,"@is_teen_computer_hacker_a_curiosity
 
 @Piedad16401918
@@ -126,7 +126,7 @@ Upload: 68.63 Mbit/s
 @Piedad16401918-
 
  @Piedad16401918
- peace"
+ peace",neutral,joy,neutral,sadness
 69,1488300362516013059,"android paid apps
 
 a color story 
@@ -152,14 +152,14 @@ snapseed
 storyart
 ibispaint
 
-#paidapps"
+#paidapps",neutral,joy,neutral,joy
 70,1488300344824188929,".@GoogleCloud’s Partner Power Play: 5 Things To Know 
 
 .@CRN breaks down the No. 3 cloud computing player’s organizational and personnel moves to help fuel growth through partners. 
 
-@gcloudpartners @tomgalizia #tech #technology #technews #cloud #cloudcomputing #channelpartners"
+@gcloudpartners @tomgalizia #tech #technology #technews #cloud #cloudcomputing #channelpartners",neutral,joy,positive,optimism
 71,1488300327870758912,"Just got an alert someone in Stockton Ca. was attempting to log on my Twitter account ...
-@Twitter made me change my password...hope I'm not getting hacked!!"
+@Twitter made me change my password...hope I'm not getting hacked!!",negative,optimism,neutral,anger
 72,1488300324926496772,"Pay professional academic tutors to assist you secure top grades:-
 Anatomy
 Maths
@@ -176,23 +176,23 @@ Assignment
 ✓History
 ✓Research paper
 
-Kindly dm @EssaysTechnical"
-73,1488300323198308353,"Stop staring at the clock every day. It's time for a new career. Follow us to view jobs with titles like ""Software Developer"" in #AnnapolisJunction, MD. #SoftwareDeveloper"
-74,1488300320740425729,"My current, Not at all Terrifying CPU temperature is 37.0 C"
-75,1488300294207275009,I’m almost done with my backstory and the Wi-Fi acting up 😭
-76,1488300293095833607,I FaceTimed my dad to tell him happy birthday and now he won’t stop FaceTiming me 😂
-77,1488300280521404421,"RT Microsoft ""@IsidoraKatanic @onedrive @MicrosoftAzure We sure do. 😍"""
+Kindly dm @EssaysTechnical",positive,joy,neutral,optimism
+73,1488300323198308353,"Stop staring at the clock every day. It's time for a new career. Follow us to view jobs with titles like ""Software Developer"" in #AnnapolisJunction, MD. #SoftwareDeveloper",positive,optimism,neutral,optimism
+74,1488300320740425729,"My current, Not at all Terrifying CPU temperature is 37.0 C",negative,anger,negative,anger
+75,1488300294207275009,I’m almost done with my backstory and the Wi-Fi acting up 😭,negative,sadness,negative,sadness
+76,1488300293095833607,I FaceTimed my dad to tell him happy birthday and now he won’t stop FaceTiming me 😂,positive,joy,positive,joy
+77,1488300280521404421,"RT Microsoft ""@IsidoraKatanic @onedrive @MicrosoftAzure We sure do. 😍""",positive,joy,positive,joy
 78,1488300263580606465,"Basically tweet bio:
 
 1. I am a digital artist/animator. I use mainly Adobe Products; Illustrator, Character Animator and others. 
 
 2. I have been a artist for nearly 10 years now. 
 
-3. I stream art and animator to inspire people to draw what they believe in."
-79,1488300263244898308,ARE YOU LOOKING FOR A [Adobe Creative Cloud Subscription]?! SAY NO MORE!!!
-80,1488300254588022786,available for facetime 💓 dms open.
-81,1488300250104221698,"I bet the first protest you will see in the metaverse will be pro lockdown, pro mask, pro solitary confinement.. I can just picture their avatars all masked up holding I hate freedom signs. They wouldn’t do it in person bc they know it would look ridiculous #EndTheMandates"
-82,1488300233956024324,Looking to score a job at SAIC? You're in luck. Click the link in our bio for the job description and information on how to apply: DevOps Solutions Principal #software
+3. I stream art and animator to inspire people to draw what they believe in.",positive,joy,neutral,joy
+79,1488300263244898308,ARE YOU LOOKING FOR A [Adobe Creative Cloud Subscription]?! SAY NO MORE!!!,positive,joy,negative,anger
+80,1488300254588022786,available for facetime 💓 dms open.,positive,optimism,positive,joy
+81,1488300250104221698,"I bet the first protest you will see in the metaverse will be pro lockdown, pro mask, pro solitary confinement.. I can just picture their avatars all masked up holding I hate freedom signs. They wouldn’t do it in person bc they know it would look ridiculous #EndTheMandates",negative,anger,negative,anger
+82,1488300233956024324,Looking to score a job at SAIC? You're in luck. Click the link in our bio for the job description and information on how to apply: DevOps Solutions Principal #software,positive,optimism,positive,optimism
 83,1488300220832264193,"Next decade
 Companies invest on: 
 Biotechnology
@@ -201,74 +201,74 @@ Biology
 Aging 
 Pharmacology 
 And machine learning
-Do you have any deep knowledge to work on one of these subjects ?"
-84,1488300212531589122,HASKELL STARTUPS DUOLINGO ORNITHINE RETWEET TO WIN WONKEY FART HAS SUNBURN. DUCKS. TURD. FART. CRYPTOCURRENCY FOOT FONG ULTIMOGG CATS CHILI OIL SMELLY BITCOIN HUNDO P HORSE URINE UKRAINE KETO DIET SHIBACOIN DATA MINING DIARRHEA DATA SCIENCE IRISCOIN PUSTULES BOWEL MOVEMENT
+Do you have any deep knowledge to work on one of these subjects ?",positive,optimism,neutral,optimism
+84,1488300212531589122,HASKELL STARTUPS DUOLINGO ORNITHINE RETWEET TO WIN WONKEY FART HAS SUNBURN. DUCKS. TURD. FART. CRYPTOCURRENCY FOOT FONG ULTIMOGG CATS CHILI OIL SMELLY BITCOIN HUNDO P HORSE URINE UKRAINE KETO DIET SHIBACOIN DATA MINING DIARRHEA DATA SCIENCE IRISCOIN PUSTULES BOWEL MOVEMENT,positive,joy,neutral,anger
 85,1488300211009212426,"Let's GAIN together 💪😄✌️
 
 Like this post, I'll follow you then you follow me back. 
 
-Abena Korkor E-levy Ayew otto Addo aubameyang Don jazzy Vodafone"
+Abena Korkor E-levy Ayew otto Addo aubameyang Don jazzy Vodafone",positive,joy,positive,joy
 86,1488300197495062530,"Did $msft secure the halo bag before cutting bungie loose? They grabbed $atvi so they have one of the top IP around. If bungie doesn’t have halo what’s the use? $Sony should have gone all in for $EA
 
-Madden, battlefield, NCAA, fifa… all exclusive? They’d win out on console war"
+Madden, battlefield, NCAA, fifa… all exclusive? They’d win out on console war",negative,sadness,neutral,anger
 87,1488300195582558209,"TIL that ""input"" is now preferred over ""data"" as parameter for a tx object for geth's json api
 
-If you didn't get the memo, dw, erigon didn't either"
-88,1488300176632647680,"I hope these parents who are banning books are also banning their children from cell phones, video games, movies and TV."
+If you didn't get the memo, dw, erigon didn't either",neutral,sadness,neutral,anger
+88,1488300176632647680,"I hope these parents who are banning books are also banning their children from cell phones, video games, movies and TV.",negative,anger,negative,anger
 89,1488300168462180354,"Day 15: Continued working on a Wedding RSVP list Pagination App. Was able to add pagination, sorting and filtering of data using json-server. Need to implement a way to RSVP per name (input checkbox) and do performance analysis next. 
 
-#100DaysOfCode"
-90,1488300157989015552,I honestly don't know why the NYT bought wordle for seven figures when just about any programmer could put together a clone over a weekend.
-91,1488300156227239936,My car is made by the same brilliant minds that make a 16 story tall rocket going faster than a bullet do a backflip and land back on earth to be reused! That is f*cking magic! 🤯🤯🤯 🙌🏽 @SpaceX @elonmusk @Tesla also this car is made in the USA and leads the EV revolution. @POTUS
+#100DaysOfCode",neutral,optimism,positive,joy
+90,1488300157989015552,I honestly don't know why the NYT bought wordle for seven figures when just about any programmer could put together a clone over a weekend.,negative,sadness,negative,anger
+91,1488300156227239936,My car is made by the same brilliant minds that make a 16 story tall rocket going faster than a bullet do a backflip and land back on earth to be reused! That is f*cking magic! 🤯🤯🤯 🙌🏽 @SpaceX @elonmusk @Tesla also this car is made in the USA and leads the EV revolution. @POTUS,positive,optimism,positive,joy
 92,1488300155384340483,"Today I will start my journey in HTB and Python effectively and continuously for 100 days. 
 
 #100DaysOfHacking
 #100DaysOfCode
 
-I hope this will motivate me, and maybe you too 😎🔥"
+I hope this will motivate me, and maybe you too 😎🔥",positive,optimism,positive,optimism
 93,1488300147876540420,"16 inch MacBook Pro: the keyboard is set back so far because of the massive touchpad/screen size and this is bad for my wrists.
 
 But I like the physical escape key, even though it has a Touch Bar.
 
-Hopefully I get used to it somewhat quickly. Lots of accidental clicks and typos."
-94,1488300141748846592,Thinking about how my laptop used to not be able to access Wi-Fi and I had to bring an ethernet cable to hardwire myself into professors' podiums to follow along in class
-95,1488300127706099716,yeah starting my first salaried job is cool but the real win is getting invited to a slack channel with the girlies from my intern class who were also hired full time
-96,1488300115332939780,Any python developers out there?
-97,1488300104020758533,i want to do a family tree but i font bav wifi
-98,1488300093887373314,My 5g don’t be 5ging the way y’all advertised 😒 @Verizon
-99,1488300089907064841,I think my next stop shop to level up is learning Adobe Premier Pro🤔
-100,1488300084194201601,Looking at nrwl/nx for micro-frontend dev with React... not feeling super inspired with the only MFE example being in Angular with no way to adapt to React (scripts apparently aren't there).
-101,1488300079706423301,I need to start carrying my MacBook with me again. I hate using these desktops for my hands-on labs
-102,1488300078460817408,T-Mobile has terrible customer service
-103,1488300077873467392,You like Android audios?
-104,1488300064686673924,i haven't had wifi since friday im rly using all of my 4g to simp over geralt. it must be done.
-105,1488300035938787328,So excited for @phantom mobile wallet. So easy to set up on iOS. #Solana
-106,1488300030544859137,"I HATE laptop upgrades on mac OS for work. Makes working damn near impossible for a day because then xCode and iTunes have to update, and Charles, and a whole bunch of other dumb crap."
-107,1488300012568199169,"So, do you wanna Facetime later, babe?"
-108,1488299991336632321,"Bought a new electric toothbrush today. It has an OLED screen. It has Bluetooth pairing for my phone, which means it has an app, in case I want my brushing data sold to the highest bidding marketer. It has AI ENHANCED LEARNING ALGORITHMS, for when it chooses to destroy me."
-109,1488299944834387973,"i just want a meta quest, formerly known as the oculus quest. is that too much to ask for 😩"
+Hopefully I get used to it somewhat quickly. Lots of accidental clicks and typos.",positive,optimism,neutral,sadness
+94,1488300141748846592,Thinking about how my laptop used to not be able to access Wi-Fi and I had to bring an ethernet cable to hardwire myself into professors' podiums to follow along in class,negative,sadness,negative,sadness
+95,1488300127706099716,yeah starting my first salaried job is cool but the real win is getting invited to a slack channel with the girlies from my intern class who were also hired full time,positive,joy,positive,joy
+96,1488300115332939780,Any python developers out there?,neutral,optimism,neutral,joy
+97,1488300104020758533,i want to do a family tree but i font bav wifi,negative,sadness,neutral,sadness
+98,1488300093887373314,My 5g don’t be 5ging the way y’all advertised 😒 @Verizon,negative,sadness,negative,anger
+99,1488300089907064841,I think my next stop shop to level up is learning Adobe Premier Pro🤔,positive,optimism,positive,optimism
+100,1488300084194201601,Looking at nrwl/nx for micro-frontend dev with React... not feeling super inspired with the only MFE example being in Angular with no way to adapt to React (scripts apparently aren't there).,negative,sadness,negative,sadness
+101,1488300079706423301,I need to start carrying my MacBook with me again. I hate using these desktops for my hands-on labs,negative,anger,negative,anger
+102,1488300078460817408,T-Mobile has terrible customer service,negative,anger,negative,anger
+103,1488300077873467392,You like Android audios?,neutral,joy,neutral,joy
+104,1488300064686673924,i haven't had wifi since friday im rly using all of my 4g to simp over geralt. it must be done.,positive,joy,negative,sadness
+105,1488300035938787328,So excited for @phantom mobile wallet. So easy to set up on iOS. #Solana,positive,joy,positive,joy
+106,1488300030544859137,"I HATE laptop upgrades on mac OS for work. Makes working damn near impossible for a day because then xCode and iTunes have to update, and Charles, and a whole bunch of other dumb crap.",negative,anger,negative,anger
+107,1488300012568199169,"So, do you wanna Facetime later, babe?",neutral,joy,neutral,joy
+108,1488299991336632321,"Bought a new electric toothbrush today. It has an OLED screen. It has Bluetooth pairing for my phone, which means it has an app, in case I want my brushing data sold to the highest bidding marketer. It has AI ENHANCED LEARNING ALGORITHMS, for when it chooses to destroy me.",positive,optimism,positive,anger
+109,1488299944834387973,"i just want a meta quest, formerly known as the oculus quest. is that too much to ask for 😩",negative,sadness,negative,sadness
 110,1488299932344020992,"Anyone else apart from me think that the fear of A.I is overblown? 
 
-#ArtificialIntelligence"
-111,1488299915491086339,You see his fucking happy play around do all of this bullshit she took your fucking cell phone when the government gets here there is no taking your cell phone you’re gonna die for it
-112,1488299914660564992,my wifi is so broken
-113,1488299910533300226,My life is literally on hold with no WiFi
-114,1488299876488302595,"""THEY INTEND TO USE CLASS 4 EXPLOSIVES. CLASS 4 EXPLOSIVES ARE SAFE TO HANDLE &amp; ARE WHAT GOES IN FIREWORKS. Police dressed exactly like the goons in Ottawa were in London Ontario with about 200 pounds of class 4 explosives in a hotel there.."" http://198.46.190.126/pages/zy8.html"
+#ArtificialIntelligence",negative,anger,neutral,optimism
+111,1488299915491086339,You see his fucking happy play around do all of this bullshit she took your fucking cell phone when the government gets here there is no taking your cell phone you’re gonna die for it,negative,anger,negative,anger
+112,1488299914660564992,my wifi is so broken,positive,joy,negative,sadness
+113,1488299910533300226,My life is literally on hold with no WiFi,negative,sadness,negative,sadness
+114,1488299876488302595,"""THEY INTEND TO USE CLASS 4 EXPLOSIVES. CLASS 4 EXPLOSIVES ARE SAFE TO HANDLE &amp; ARE WHAT GOES IN FIREWORKS. Police dressed exactly like the goons in Ottawa were in London Ontario with about 200 pounds of class 4 explosives in a hotel there.."" http://198.46.190.126/pages/zy8.html",negative,anger,negative,anger
 115,1488299875179638792,"I will like to join #100DaysOfCode is there any free Boot camp for it..
 
-#Cpp #CodeNewbie #cryptography #blockchain"
-116,1488299869806731269,Mobile first  #AppsAndroidNativos #ApplicationProgrammingInterface #recursos #dominio #aplicacao #interface #integraçoes #eficientes #json #JavaScriptObjectNotation #protocolo #http #parcelable #estrategia #deserializacao #implementacao #implementation
-117,1488299860151484419,if i get partnered this year ill play vr horror games
-118,1488299853562142722,Hot water tank temperatures at: 2022/01/31 23:55:04 top=55.5 side=44.0 middle=40.0 stat=41.5 bottom=36.875 board=18.625 loft=7.5 CPU=35.8
+#Cpp #CodeNewbie #cryptography #blockchain",neutral,joy,positive,joy
+116,1488299869806731269,Mobile first  #AppsAndroidNativos #ApplicationProgrammingInterface #recursos #dominio #aplicacao #interface #integraçoes #eficientes #json #JavaScriptObjectNotation #protocolo #http #parcelable #estrategia #deserializacao #implementacao #implementation,neutral,joy,neutral,joy
+117,1488299860151484419,if i get partnered this year ill play vr horror games,positive,optimism,neutral,joy
+118,1488299853562142722,Hot water tank temperatures at: 2022/01/31 23:55:04 top=55.5 side=44.0 middle=40.0 stat=41.5 bottom=36.875 board=18.625 loft=7.5 CPU=35.8,neutral,joy,neutral,joy
 119,1488299850492170241,"System Time:2022-02-01 - 08:55:03 JST
 Hostname:raspi
 Uptime:5 days 17:54
 CPU Load:0.2,0.08,0.07
 CPU Temp:39.17
 MFree:35168
-SFree:544"
-120,1488299842837389320,Every 5mins my WiFi going out. Get it tf together digicel 😑😑😑
-121,1488299838554923012,T-Mobile dtm for a new phone number😂✌🏾
+SFree:544",neutral,joy,neutral,joy
+120,1488299842837389320,Every 5mins my WiFi going out. Get it tf together digicel 😑😑😑,negative,anger,negative,anger
+121,1488299838554923012,T-Mobile dtm for a new phone number😂✌🏾,positive,joy,positive,joy
 122,1488299833802829836,"ARE YOU IN NEED OF ASSITANCE, WE HAVE EXPERTS IN: 
 #onlineclass
  #fall classes
@@ -284,7 +284,7 @@ SFree:544"
 #assignments 
 #pay assignments
 #Onlineclass
-Kindly DM US NOW"
+Kindly DM US NOW",neutral,joy,neutral,optimism
 123,1488299827691769856,"D11. Data structure
 ----
 Doubly Linked List
@@ -292,13 +292,13 @@ In comparison to singly:
 it is more flexible because each node points to both directions + takes up more memory.
 Unlike Singly, removal is always constant. 
 
-#CodeNewbie  #100Devs #DataStructure #WomenWhoCode #womenintech #100DaysOfCode"
-124,1488299815737851905,Mfs be 18 dating 14 year olds talking bout “I just FaceTimed bae😍😍” yeah you’re gonna face time very soon bro 💀💀
+#CodeNewbie  #100Devs #DataStructure #WomenWhoCode #womenintech #100DaysOfCode",neutral,joy,neutral,optimism
+124,1488299815737851905,Mfs be 18 dating 14 year olds talking bout “I just FaceTimed bae😍😍” yeah you’re gonna face time very soon bro 💀💀,negative,anger,neutral,joy
 125,1488299798985797632,"I know this makes me a fake CS student, but after so many years of Java, PHP, a little bit of assembly and a boatload of (the nightmare that is) C...
 
-Going back to using python is like going back to your comfy bed at home after sleeping in hotel beds for seven semesters."
-126,1488299789519405059,"Sometimes a family cell plan is your mom, your partner, and your closest friends because you got a decent deal at tmobile"
-127,1488299783647289345,"why is my wifi being so utterly wank,  this shit pissing me off fr, im gonna fuckin cry in a min"
+Going back to using python is like going back to your comfy bed at home after sleeping in hotel beds for seven semesters.",positive,optimism,negative,sadness
+126,1488299789519405059,"Sometimes a family cell plan is your mom, your partner, and your closest friends because you got a decent deal at tmobile",positive,joy,positive,optimism
+127,1488299783647289345,"why is my wifi being so utterly wank,  this shit pissing me off fr, im gonna fuckin cry in a min",negative,anger,negative,anger
 128,1488299780786765831,"I'm starting #100DaysOfCode today. I'll be taking a closer look at:
 - jest/mocha
 - recoil/redux
@@ -308,30 +308,30 @@ Going back to using python is like going back to your comfy bed at home after sl
 - graphQL
 - material UI
 
-What other remarkable technologies should I look at? #javascript #webdevelopment #programmer"
+What other remarkable technologies should I look at? #javascript #webdevelopment #programmer",neutral,joy,positive,joy
 129,1488299771232014343,"There are two hard things in computer science: cache invalidation and naming things (and off-by-one errors).
 
-#javascript #React #ReactNative #webdev #AndroidDev"
-130,1488299756904349697,POPCOIN TURD A JAR OF METAMUCIL AWKWARD IN IT'S MOVEMENT UNDERWEAR BOZART CHARLIE BROWN SCOTLAND THE JEFFERSONS FART PORK BUTT URNY SQUEEZIT THE BUTT FART BROWN FART. FART DIARRHEA SNEEZE AND ADDRESS SEO PALM OIL DRAIN ARTIFICIAL INTELLIGENCE MACHINE LEARNING GRIEVING METALCORE
-131,1488299751179100160,Who wants to take my Cybersecurity test for me ? Lol
-132,1488299744216731648,just got out of robotics #GodBlessAmerica
+#javascript #React #ReactNative #webdev #AndroidDev",negative,anger,negative,sadness
+130,1488299756904349697,POPCOIN TURD A JAR OF METAMUCIL AWKWARD IN IT'S MOVEMENT UNDERWEAR BOZART CHARLIE BROWN SCOTLAND THE JEFFERSONS FART PORK BUTT URNY SQUEEZIT THE BUTT FART BROWN FART. FART DIARRHEA SNEEZE AND ADDRESS SEO PALM OIL DRAIN ARTIFICIAL INTELLIGENCE MACHINE LEARNING GRIEVING METALCORE,negative,anger,neutral,anger
+131,1488299751179100160,Who wants to take my Cybersecurity test for me ? Lol,neutral,joy,neutral,joy
+132,1488299744216731648,just got out of robotics #GodBlessAmerica,positive,joy,positive,optimism
 133,1488299719461945349,"Is it possible to use a 4:3 monitor as a dual setup for a pc with a 16:9 monitor?
 
-Just saw a brand new, still in box CRT monitor on ebay for $300. Considering the average monitor price around that time was $300/400, technically i'd be saving money."
-134,1488299717775826945,Hello Salesforce peeps! - new job and just got a superbadge Lightning Experience Reports &amp; Dashboard specailist! Try it its worth it!! #Salesforce #Trailblazers #Trailhead #superbadge
+Just saw a brand new, still in box CRT monitor on ebay for $300. Considering the average monitor price around that time was $300/400, technically i'd be saving money.",positive,optimism,neutral,joy
+134,1488299717775826945,Hello Salesforce peeps! - new job and just got a superbadge Lightning Experience Reports &amp; Dashboard specailist! Try it its worth it!! #Salesforce #Trailblazers #Trailhead #superbadge,positive,optimism,positive,joy
 135,1488299690810503169,"Hey! I’d like to introduce a friend.
 
 Please say hello to @kikiorg; she/them. They just tried a binder and are hooked. Artist, hacker, parent, and Tesla rebuilder extraordinaire. They have a **tea and scone maker** installed in their car!
 
-Can they get some nb/trans men follows?"
+Can they get some nb/trans men follows?",positive,optimism,positive,joy
 136,1488299665913171975,"Day 31 ✅Done
 #100DaysOfCode
 
 Flash Card App Capstone Project
 
-#100DaysOfPython #DrAngelaYu"
-137,1488299660447940613,i updated my mac and omg its the way it doesn't lag when i have different tabs open on my mac and my airpods finally connect now ✨
-138,1488299656996167683,having no sort of WiFi actually sucks
+#100DaysOfPython #DrAngelaYu",neutral,joy,neutral,joy
+137,1488299660447940613,i updated my mac and omg its the way it doesn't lag when i have different tabs open on my mac and my airpods finally connect now ✨,positive,joy,positive,joy
+138,1488299656996167683,having no sort of WiFi actually sucks,negative,anger,negative,sadness
 139,1488299648976666628,"What were your wins today? 
 
-Mine was FaceTiming with my nephew who is recovering from Covid and watching him get excited over the get-well cookies that the BF and I sent him to commemorate his 100th day of school (that he missed out on)."
+Mine was FaceTiming with my nephew who is recovering from Covid and watching him get excited over the get-well cookies that the BF and I sent him to commemorate his 100th day of school (that he missed out on).",positive,optimism,positive,joy
