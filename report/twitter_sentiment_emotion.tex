@@ -20,6 +20,10 @@
 \usepackage[normalem]{ulem}
 \useunder{\uline}{\ul}{}
 \renewcommand{\UrlFont}{\ttfamily\small}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\graphicspath{ {../images/} }
+\usepackage{subfig}
 
 % This is not strictly necessary, and may be commented out,
 % but it will improve the layout of the manuscript,
@@ -109,13 +113,13 @@ These guidelines are summarized and exemplified in Table \ref{tab:guidelines}.
 
 \begin{table*}[ht]
 \centering
-\begin{tabular}{|l|l|lc|}
+\begin{tabular}{llll}
 \hline
-\multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Problem}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Guideline}}} & \multicolumn{2}{c|}{\textbf{Example}} \\ \cline{3-4} 
-\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{\textbf{Sentence}} & \textbf{Label} \\ \hline
-Irony/ Sarcasm & \begin{tabular}[c]{@{}l@{}}Use opposite sentiment \\ to the literal one\end{tabular} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}"oh yeah tesla well what about a \\ car that just logs into your tiktok \\ acct and drives you to starbucks"\end{tabular}} & negative \\ \hline
-\begin{tabular}[c]{@{}l@{}}Contradicting \\ sentiments\end{tabular} & \begin{tabular}[c]{@{}l@{}}Prefer overall sentiment \\ over the "neutral" tag\end{tabular} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}"Finally managed to move my \\ business email from google \\ hosting to another host. So \\ stressful and difficult. The whole \\ internet is so hard! At least the \\ metaverse is coming, I'm confident \\ that will make everything easy and \\ good, phew."\end{tabular}} & positive \\ \hline
-Unclear emotion & \begin{tabular}[c]{@{}l@{}}Prefer "joy" tag for being \\ broader in sense\end{tabular} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}"All the software I create will be \\ free and open source, but that \\ doesn't necessarily mean I won't \\ write cryptic software for some \\ of my projects"\end{tabular}} & joy \\ \hline
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Problem}}} & \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Guideline}}} & \multicolumn{2}{c}{\textbf{Example}} \\ \cline{3-4} 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{Sentence}} & \multicolumn{1}{c}{\textbf{Label}} \\ \hline
+Irony/ Sarcasm & \begin{tabular}[c]{@{}l@{}}Use opposite sentiment\\ to the literal one\end{tabular} & \begin{tabular}[c]{@{}l@{}}”oh yeah tesla well what about a\\ car that just logs into your tiktok\\ acct and drives you to starbucks”\end{tabular} & negative \\ \hline
+\begin{tabular}[c]{@{}l@{}}Contradicting\\ sentiments\end{tabular} & \begin{tabular}[c]{@{}l@{}}Prefer overall sentiment \\ over the ”neutral” tag\end{tabular} & \begin{tabular}[c]{@{}l@{}}”Finally managed to move my\\ business email from google\\ hosting to another host. So\\ stressful and difficult. The whole\\ internet is so hard! At least the\\ metaverse is coming, I’m confident\\ that will make everything easy and\\ good, phew.”\end{tabular} & positive \\ \hline
+Unclear emotion & \begin{tabular}[c]{@{}l@{}}Prefer ”joy” tag for\\ being broader in sense\end{tabular} & \begin{tabular}[c]{@{}l@{}}”All the software I create will be\\ free and open source, but that\\ doesn’t necessarily mean I won’t\\ write cryptic software for some\\ of my projects”\end{tabular} & joy \\ \hline
 \end{tabular}
 \caption{Defined guidelines after the Inter Annotator Agreement with corresponding examples.}
 \label{tab:guidelines}
@@ -123,48 +127,41 @@ Unclear emotion & \begin{tabular}[c]{@{}l@{}}Prefer "joy" tag for being \\ broad
 
 \subsection{Inter Annotator Agreement}
 
-Initially, a sample of the first 20 instances was shared among the annotators. These initial tweets were used to calculate Inter Annotator Agreement, after which we made modifications to the guidelines and scope of the work. 
+Initially, a sample of the first 20 instances was shared among the annotators. The annotations for these initial tweets were used to calculate Inter Annotator Agreement. Table \ref{tab:examples} shows examples of these instances.
 
-The ITA between the three annotators and the automatic results was calculated for the 20 shared tweets. We also calculated the agreement between each annotator and the automatic results for the 40 tweets that were annotated individually.
+\begin{table*}[ht]
+\centering
+\begin{tabular}{l|lll|lll}
+\hline
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Text}}} & \multicolumn{3}{c}{\textbf{Sentiment}} & \multicolumn{3}{c}{\textbf{Emotion}} \\ \cline{2-7} 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{julen}} & \multicolumn{1}{c}{\textbf{oihane}} & \multicolumn{1}{c}{\textbf{javier}} & \multicolumn{1}{c}{\textbf{julen}} & \multicolumn{1}{c}{\textbf{oihane}} & \multicolumn{1}{c}{\textbf{javier}} \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}just put a CD into my MacBook \\ to burn it and my computer \\ is literally trembling with \\ reawakened recognition\end{tabular}} & negative & positive & negative & anger & joy & joy \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}oh yeah tesla well what about \\ a car that just logs into your \\ tiktok acct and drives you to \\ starbucks\end{tabular}} & neutral & positive & negative & joy & joy & anger \\ \hline
+\textit{\begin{tabular}[c]{@{}l@{}}\#100DaysOfCode Haven’t \\ updated in a while due to not \\ feeling well, just been reviewing \\ some HTML/CSS \&amp; \\ JavaScript until I feel better to \\ take on new concepts. Also \\ been watching mock interviews :)\end{tabular}} & negative & negative & negative & sadness & optimism & optimism \\ \hline
+\end{tabular}
+\caption{Instance examples used to calculate Inter Annotator Agreement.}
+\label{tab:examples}
+\end{table*}
 
-The Kappa scores were computed to see if we agreed in the annotations of both sentiment and emotions, and if we agreed with the automatic annotations.
+Table \ref{tab:agreement} shows that there is moderate agreement and a low Kappa score in the first results. The agreement results in the sentiment task are homogeneous between pairs, while in the emotion task the results were more varied. This is explained by the task labels: the sentiment task uses labels which are more clear, while the labels in the emotion task are more subjective and open to interpretation. This is main reason why the guidelines were updated, after which the annotation was repeated along the Inter Annotator Agreement calculation. The results for the annotations with the updated guidelines show a clear improvement in the emotion task.
+
+\begin{table*}[ht]
+\begin{tabular}{lrrrr}
+\toprule
+        pairs &  agreement\_sentiment &  kappa\_sentiment &  agreement\_emotion &  kappa\_emotion \\
+\midrule
+ julen oihane & 70.0 $\rightarrow$ \textbf{65.0} & 53.8 $\rightarrow$ \textbf{45.1} & 55.0 $\rightarrow$ \textbf{70.0} & 33.3 $\rightarrow$ \textbf{49.2} \\
+ julen javier & 60.0 $\rightarrow$ \textbf{70.0} & 40.1 $\rightarrow$ \textbf{49.4} & 40.0 $\rightarrow$ \textbf{70.0} & 13.0 $\rightarrow$ \textbf{46.9} \\
+javier oihane & 60.0 $\rightarrow$ \textbf{55.0} & 39.2 $\rightarrow$ \textbf{32.3} & 65.0 $\rightarrow$ \textbf{70.0} & 46.2 $\rightarrow$ \textbf{50.0} \\
+\midrule
+      average & 63.3 $\rightarrow$ \textbf{63.3} & 44.4 $\rightarrow$ \textbf{42.3} & 53.3 $\rightarrow$ \textbf{70.0} & 30.8 $\rightarrow$ \textbf{48.7} \\
+\bottomrule
+\end{tabular}
+\caption{Inter Annotator Agreement result improvements after updating the guidelines. Final results are in bold.}
+\label{tab:agreement}
+\end{table*}
 
 Thereafter each annotator was given a different set of 40 tweets for annotation. The same methodology was followed, where the manual annotations were used to evaluate the accuracy of the models.
-
-\begin{table*}[]
-\centering
-\begin{tabular}{|l|l|l|l|l|l|l|}
-\hline
-text &
-  sentiment\_julen &
-  sentiment\_oihane &
-  sentiment\_javier &
-  emotion\_julen &
-  emotion\_oihane &
-  emotion\_javier \\ \hline
-just   put a CD into my MacBook to burn it and my computer is literally trembling   with reawakened recognition &
-  negative &
-  positive &
-  negative &
-  anger &
-  joy &
-  joy \\ \hline
-oh   yeah tesla well what about a car that just logs into your tiktok acct and   drives you to starbucks &
-  neutral &
-  positive &
-  negative &
-  joy &
-  joy &
-  anger \\ \hline
-\#100DaysOfCode   Haven’t updated in a while due to not feeling well, just been reviewing some   HTML/CSS \&amp; JavaScript until I feel better to take on new concepts. Also   been watching mock interviews  :) &
-  negative &
-  negative &
-  negative &
-  sadness &
-  optimism &
-  optimism \\ \hline
-\end{tabular}
-\end{table*}
 
 \subsection{Automatic annotation}
 
@@ -182,37 +179,112 @@ We used the Adversary\footnote{\url{https://github.com/airbnb/artificial-adversa
 
 \begin{table*}[ht]
 \centering
-\begin{tabular}{|l|l|ll|}
+\begin{tabular}{llll}
 \hline
-\multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Type}}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{Sentence}}} & \multicolumn{2}{c|}{\textbf{Label}} \\ \cline{3-4} 
-\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{\textbf{Emotion}} & \multicolumn{1}{c|}{\textbf{Sentiment}} \\ \hline
-Original & having no sort of WiFi actually sucks & \multicolumn{1}{l|}{negative} & sadness \\ \hline
-Swap words & having no sort WiFi of actually sucks & \multicolumn{1}{l|}{negative} & sadness \\ \hline
-Remove space & having-no`sort of WiFi actually sucks & \multicolumn{1}{l|}{negative} & anger \\ \hline
-Replace letters with symbols & having no \$or7 of WiFi actually \$u\{[\}kS & \multicolumn{1}{l|}{neutral} & sadness \\ \hline
-Swap letters & having no srot of WiFi actually sucks & \multicolumn{1}{l|}{negative} & anger \\ \hline
-Insert punctuation & having no sor{]}\{t of WiFi actually {]}su!cks & \multicolumn{1}{l|}{neutral} & sadness \\ \hline
-Insert duplicate characters & having no sorttt of WiFi actually sucks & \multicolumn{1}{l|}{negative} & sadness \\ \hline
-Delete characters & having no sot of WiFi actually sucks & \multicolumn{1}{l|}{negative} & sadness \\ \hline
-Change case & having no SORT of WiFI actually sucks & \multicolumn{1}{l|}{negative} & anger \\ \hline
+\multicolumn{1}{c}{\multirow{2}{*}{\textbf{Type}}} & \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Sentence}}} & \multicolumn{2}{c}{\textbf{Label}} \\ \cline{3-4} 
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{Emotion}} & \multicolumn{1}{c}{\textbf{Sentiment}} \\ \hline
+Original & having no sort of WiFi actually sucks & negative & sadness \\
+Swap words & having no sort WiFi of actually sucks & negative & sadness \\
+Remove space & having-no`sort of WiFi actually sucks & negative & anger \\
+Replace letters with symbols & having no \$or7 of WiFi actually \$u\{[\}kS & neutral & sadness \\
+Swap letters & having no srot of WiFi actually sucks & negative & anger \\
+Insert punctuation & having no sor{]}\{t of WiFi actually {]}su!cks & neutral & sadness \\
+Insert duplicate characters & having no sorttt of WiFi actually sucks & negative & sadness \\
+Delete characters & having no sot of WiFi actually sucks & negative & sadness \\
+Change case & having no SORT of WiFI actually sucks & negative & anger \\ \hline
 \end{tabular}
 \caption{Examples of adversarial sentences and the predicted sentiment and emotion.}
 \label{tab:adversarial}
 \end{table*}
 
-\subsection{Visualization}
-
-We will visualize the percentage of tweets from each class in the manual and automatic annotations. We will also visualize the most common words of each class in word clouds.
-
 \section{Results}
 
-First, we will analyse ITA results in the first and second annotation.
-Then we will compare the results and extract some conclusions about the performance of the models.
+We will compare the results and extract some conclusions about the performance of the models. We will visualize the percentage of tweets from each class in the manual and automatic annotations. We will also visualize the most common words of each class in word clouds.
 
-\subsection{Inter Annotator Agreement}
-The first results of Inter Annotator Agreements were quite low, so we realized that we needed new guidelines. After updating the guidelines, we got better results. %Table of some results
+\subsection{F1 scores}
 
-\subsection{Automatic annotation metrics}
+F-score was calculated for each label and macro-average for all labels in each task in order to compare the model results against the manual annotations. 
+As can be seen in Table \ref{tab:f1_scores}, the results with adversarial sentences output lower F-scores than with the original sentences. For the sentiment task, the performance with original sentences delivers a 65.8 F-score against a 61.7 mean F-score with the adversarial sentences. The same applies to the emotion task results, which bring a 53.3 F-score with original sentences and a 50.7 mean F-score with the adversarial sentences.
+Even if in overall results for adversarial sentences are worse than the original ones, we can remark that some of the adversarial attacks doesn't decrease F-score, they even improve it in some cases. The best results for sentiment analysis are for the \textit{swap\_words} attack and this same attack performs quite well in emotion detection. And for emotion detection the best results are for \textit{remove\_spacing}, that doesn't receive so bad results for sentiment analysis. So watching these results, we may conclude that removing a space of the sentence or word order doesn't really matter for these tasks.
+
+In Figure \ref{fig:barplots}, we see the results of Table \ref{tab:f1_scores} into barplots, we see the score differences between each tag. The tag that is classified worse for both original and adversarial sentences is \textit{positive}, and for emotions, we see that \textit{anger} and \textit{joy} are the tags that get better results, and \textit{optimism} is clearly below all the others.
+
+In Figure \ref{fig:barplot}, we can observe that between the two tasks, sentiment analysis get better results for both original and adversarial sentences.
+
+And in Figure \ref{fig:scatterplot}, we can see the difference in scores between the two tasks and all the adversarial attacks. 
+
+%See Figures \ref{fig:barplots}, \ref{fig:barplot} and \ref{fig:scatterplot}.
+
+%mark best results in bold
+
+\begin{table*}[ht]
+\centering
+\begin{tabular}{l|rrr|r|rrrr|r}
+\toprule
+                       text &  neg &  neu &  pos &  sen &  ang &  joy &  opt &  sad &  emo \\
+\midrule
+                       original &      71.0 &     71.0 &      70.3 &       65.8 &   66.7 & 66.1 &      27.9 &     52.6 &     53.3 \\
+                 swap\_words &      \textbf{73.1} &     \textbf{73.1} &      \textbf{71.0} &       \textbf{67.2} &   67.6 & 64.6 &      27.9 &     51.3 &     52.8 \\
+             remove\_spacing &      68.2 &     68.2 &      60.2 &       61.2 &   \textbf{69.6} & \textbf{68.2} &      33.3 &     \textbf{55.0} &     \textbf{56.5} \\
+           letter\_to\_symbol &      65.2 &     65.2 &      58.5 &       59.0 &   62.5 & 62.0 &      22.9 &     38.9 &     46.6 \\
+               swap\_letters &      69.0 &     69.0 &      64.3 &       62.8 &   67.6 & 64.1 &      21.6 &     31.6 &     46.2 \\
+         insert\_punctuation &      62.8 &     62.8 &      55.7 &       57.5 &   62.5 & 74.0 &      20.0 &     35.0 &     47.9 \\
+insert\_duplicate\_characters &      72.5 &     72.5 &      63.6 &       63.9 &   66.7 & 66.7 &      26.3 &     47.4 &     51.8 \\
+          delete\_characters &      68.2 &     68.2 &      59.5 &       59.9 &   68.5 & 66.7 &      27.8 &     41.0 &     51.0 \\
+                change\_case &      71.1 &     71.1 &      63.6 &       62.6 &   63.2 & 65.6 &      \textbf{37.2} &     44.4 &     52.6 \\
+\bottomrule
+\end{tabular}
+\caption{F1 scores for original text and adversarial attacks. F1 for each label and macro-average of all labels for sentiment and emotion.}
+\label{tab:f1_scores}
+\end{table*}
+
+\begin{figure*}[ht]
+    \centering
+    \subfloat{\includegraphics[width=0.49\linewidth]{barplot_sentiment.png}}
+    \subfloat{\includegraphics[width=0.49\linewidth]{barplot_emotion.png}}
+    \caption{F1 for each label and macro-average of all labels for sentiment and emotion.}
+    \label{fig:barplots}
+\end{figure*}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{barplot_sentiment_emotion.png}
+    \caption{Sentiment and emotion barplot.}
+    \label{fig:barplot}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{scatterplot_sentiment_emotion.png}
+    \caption{Sentiment and emotion scatterplot.}
+    \label{fig:scatterplot}
+\end{figure}
+
+\subsection{Pieplots}
+
+In Figure \ref{fig:pieplots_sentiment} we can see the distribution of each of the tags of the sentiment analysis task. In the manual distribution, positive and negative tags are equally distributed, and are less neutral tags. In the automatic annotation, the distribution of positive and negative tags are also equally distributed, but the majority class is neutral. This can be because while manually annotating, we tend to avoid neutrality, and we try to put a positive or negative tag at all costs. Another reason may be that we decided to take the overall sentiment when there are positive and negative sentiments in the same tweets, and maybe the model makes an average and classifies them as neutral.
+
+In Figure \ref{fig:pieplots_emotion}, we can see that something similar appends. In our guidelines, we decided that we will put the joy tag when we will have doubts. This increased our manual annotations' joy tags number. For optimism and anger, the results are quite similar but for anger, because the automatic annotation puts more than the manual one. This should be because our guidelines implies that there will be more joy, because we put it when there is no emotion and when we had doubts between joy and optimism, as we think that it is the more general emotion. 
+
+%See Figures \ref{fig:pieplots_sentiment} and \ref{fig:pieplots_emotion}.
+
+\begin{figure*}[ht]
+    \centering
+    \subfloat{\includegraphics[width=0.49\linewidth]{pieplot_sentiment_manual.png}}
+    \subfloat{\includegraphics[width=0.49\linewidth]{pieplot_sentiment_auto.png}}
+    \caption{Sentiment label percentages for manual and automatic annotation.}
+    \label{fig:pieplots_sentiment}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \subfloat{\includegraphics[width=0.49\linewidth]{pieplot_emotion_manual.png}}
+    \subfloat{\includegraphics[width=0.49\linewidth]{pieplot_emotion_auto.png}}
+    \caption{Sentiment label percentages for manual and automatic annotation.}
+    \label{fig:pieplots_emotion}
+\end{figure*}
+
+\subsection{Wordclouds}
 
 \section{Conclusions}
 
@@ -220,7 +292,9 @@ Classification tasks in Twitter related to sentiment analysis have grown in impo
 
 Our evaluation focuses on the outcomes of a popular Twitter-specific framework across two tasks by comparing its results to human annotation. This evaluation method is useful for the purpose of this work because it allows us to examine the broader potential impact of these models and whether the guidelines used to create the training corpus for these tasks translate into adequate performance on sentiment analysis tasks.
 
-For future work, it would be useful to analyze the performance of the models in multiple other related tasks, such as irony/ sarcasm detection or hate detection, instead of a pair of tasks. Other improvements on this evaluation would be to explore additional languages and other frameworks with different guidelines.
+We saw that good guidelines are essential to annotate manually, even if the task seems to be "easy". They allow annotators to annotate the same way, and are very important if we want to create a coherent resource. 
+
+The outcomes of this work have shown that classification models have multiple sources of error and tend to under-perform when facing different scenarios such as unknown words, lexicon gaps or unspecified sentence contexts. This shows there is room for improvement in this task. For future work, it would be useful to analyze the performance of the models in multiple other related tasks, such as irony/ sarcasm detection or hate detection, instead of a pair of tasks. Other improvements on this evaluation would be to explore additional languages and other classification frameworks with different guidelines.
 
 \bibliography{twitter_sentiment_emotion}
 \bibliographystyle{acl_natbib}
