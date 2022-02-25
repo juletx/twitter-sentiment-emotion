@@ -48,7 +48,7 @@
   \texttt{email@domain} \\\And
   Julen Etxaniz \\
   UPV/EHU \\
-  \texttt{email@domain} \\\And
+  jetxaniz007@ikasle.ehu.eus \\\And
   Jose Javier Saiz \\
   UPV/EHU \\
   \texttt{email@domain} \\}
@@ -95,7 +95,14 @@ The annotation was made by three Spanish MSc students with training in linguisti
 Tweets are characterized by being short, spontaneous and conversational in nature. That is, opinions are concise and sentiments are condensed into a few words, which is important for the corpus because it guarantees that the annotation will be carried out and analyzed accurately. Tweets are also time-sensitive texts, which means that the content the instances is only relevant to the time in which they were written.
 
 \subsubsection*{F. TEXT CHARACTERISTICS}
-The sample includes tweets made before February 1. The Twitter context “Interests and Hobbies Vertical: Technology'' (domain and entity ID: 65.848920371311001600) was used as the thematic parameter. This context includes “top-level interests and hobbies groupings” about “technology and computing”, as indicated in the description of the metadata context.
+The sample includes tweets made before February 1. The Twitter context “Interests and Hobbies Vertical: Technology'' (domain and entity ID: 65.848920371311001600) was used as the thematic parameter. This context includes “top-level interests and hobbies groupings” about “technology and computing”, as indicated in the description of the metadata context. Check Figure \ref{fig:wordcloud} to have an idea of the most frequent words in the tweets. Wordclouds for tweets of each class can be found in Appendix \ref{app:wordclouds}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{wordcloud.png}
+    \caption{Wordcloud of all tweets.}
+    \label{fig:wordcloud}
+\end{figure}
 
 \subsection{Guidelines}
 
@@ -182,7 +189,7 @@ We used the Adversary\footnote{\url{https://github.com/airbnb/artificial-adversa
 \begin{tabular}{llll}
 \hline
 \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Type}}} & \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Sentence}}} & \multicolumn{2}{c}{\textbf{Label}} \\ \cline{3-4} 
-\multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{Emotion}} & \multicolumn{1}{c}{\textbf{Sentiment}} \\ \hline
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{Sentiment}} & \multicolumn{1}{c}{\textbf{Emotion}} \\ \hline
 Original & having no sort of WiFi actually sucks & negative & sadness \\
 Swap words & having no sort WiFi of actually sucks & negative & sadness \\
 Remove space & having-no`sort of WiFi actually sucks & negative & anger \\
@@ -205,17 +212,6 @@ We will compare the results and extract some conclusions about the performance o
 
 F-score was calculated for each label and macro-average for all labels in each task in order to compare the model results against the manual annotations. 
 As can be seen in Table \ref{tab:f1_scores}, the results with adversarial sentences output lower F-scores than with the original sentences. For the sentiment task, the performance with original sentences delivers a 65.8 F-score against a 61.7 mean F-score with the adversarial sentences. The same applies to the emotion task results, which bring a 53.3 F-score with original sentences and a 50.7 mean F-score with the adversarial sentences.
-Even if in overall results for adversarial sentences are worse than the original ones, we can remark that some of the adversarial attacks doesn't decrease F-score, they even improve it in some cases. The best results for sentiment analysis are for the \textit{swap\_words} attack and this same attack performs quite well in emotion detection. And for emotion detection the best results are for \textit{remove\_spacing}, that doesn't receive so bad results for sentiment analysis. So watching these results, we may conclude that removing a space of the sentence or word order doesn't really matter for these tasks.
-
-In Figure \ref{fig:barplots}, we see the results of Table \ref{tab:f1_scores} into barplots, we see the score differences between each tag. The tag that is classified worse for both original and adversarial sentences is \textit{positive}, and for emotions, we see that \textit{anger} and \textit{joy} are the tags that get better results, and \textit{optimism} is clearly below all the others.
-
-In Figure \ref{fig:barplot}, we can observe that between the two tasks, sentiment analysis get better results for both original and adversarial sentences.
-
-And in Figure \ref{fig:scatterplot}, we can see the difference in scores between the two tasks and all the adversarial attacks. 
-
-%See Figures \ref{fig:barplots}, \ref{fig:barplot} and \ref{fig:scatterplot}.
-
-%mark best results in bold
 
 \begin{table*}[ht]
 \centering
@@ -238,6 +234,12 @@ insert\_duplicate\_characters &      72.5 &     72.5 &      63.6 &       63.9 & 
 \label{tab:f1_scores}
 \end{table*}
 
+We also see that in sentiment analysis, the results for the three tags are nearly equivalent (around 60-70) for every type of sentences. In emotion detection, the scores for anger and joy are also quite similar (around 60-70 also), the ones for sadness are a little worse (around 40), but the ones for optimism are very bad for both original and adversarial sentences (around 25).
+
+Even if in overall results for adversarial sentences are worse than the original ones, we can remark that some of the adversarial attacks doesn't decrease F-score, they even improve it in some cases. The best results for sentiment analysis are for the \textit{swap\_words} attack and this same attack performs quite well in emotion detection. And for emotion detection the best results are for \textit{remove\_spacing}, that doesn't receive so bad results for sentiment analysis. So watching these results, we may conclude that removing a space of the sentence or word order doesn't really matter for these tasks.
+
+In Figure \ref{fig:barplots}, we see the results of Table \ref{tab:f1_scores} into barplots, we see the score differences between each tag. The tag that is classified worse for both original and adversarial sentences is \textit{positive}, and for emotions, we see that \textit{anger} and \textit{joy} are the tags that get better results, and \textit{optimism} is clearly below all the others.
+
 \begin{figure*}[ht]
     \centering
     \subfloat{\includegraphics[width=0.49\linewidth]{barplot_sentiment.png}}
@@ -246,12 +248,16 @@ insert\_duplicate\_characters &      72.5 &     72.5 &      63.6 &       63.9 & 
     \label{fig:barplots}
 \end{figure*}
 
+In Figure \ref{fig:barplot}, we can observe that between the two tasks, sentiment analysis get better results for both original and adversarial sentences.
+
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{barplot_sentiment_emotion.png}
     \caption{Sentiment and emotion barplot.}
     \label{fig:barplot}
 \end{figure}
+
+And in Figure \ref{fig:scatterplot}, we can see the difference in scores between the two tasks and all the adversarial attacks. 
 
 \begin{figure}[ht]
     \centering
@@ -264,10 +270,6 @@ insert\_duplicate\_characters &      72.5 &     72.5 &      63.6 &       63.9 & 
 
 In Figure \ref{fig:pieplots_sentiment} we can see the distribution of each of the tags of the sentiment analysis task. In the manual distribution, positive and negative tags are equally distributed, and are less neutral tags. In the automatic annotation, the distribution of positive and negative tags are also equally distributed, but the majority class is neutral. This can be because while manually annotating, we tend to avoid neutrality, and we try to put a positive or negative tag at all costs. Another reason may be that we decided to take the overall sentiment when there are positive and negative sentiments in the same tweets, and maybe the model makes an average and classifies them as neutral.
 
-In Figure \ref{fig:pieplots_emotion}, we can see that something similar appends. In our guidelines, we decided that we will put the joy tag when we will have doubts. This increased our manual annotations' joy tags number. For optimism and anger, the results are quite similar but for anger, because the automatic annotation puts more than the manual one. This should be because our guidelines implies that there will be more joy, because we put it when there is no emotion and when we had doubts between joy and optimism, as we think that it is the more general emotion. 
-
-%See Figures \ref{fig:pieplots_sentiment} and \ref{fig:pieplots_emotion}.
-
 \begin{figure*}[ht]
     \centering
     \subfloat{\includegraphics[width=0.49\linewidth]{pieplot_sentiment_manual.png}}
@@ -276,6 +278,8 @@ In Figure \ref{fig:pieplots_emotion}, we can see that something similar appends.
     \label{fig:pieplots_sentiment}
 \end{figure*}
 
+In Figure \ref{fig:pieplots_emotion}, we can see that something similar appends. In our guidelines, we decided that we will put the joy tag when we will have doubts. This increased our manual annotations' joy tags number. For optimism and anger, the results are quite similar but for anger, because the automatic annotation puts more than the manual one. This should be because our guidelines implies that there will be more joy, because we put it when there is no emotion and when we had doubts between joy and optimism, as we think that it is the more general emotion. 
+
 \begin{figure*}[ht]
     \centering
     \subfloat{\includegraphics[width=0.49\linewidth]{pieplot_emotion_manual.png}}
@@ -283,8 +287,6 @@ In Figure \ref{fig:pieplots_emotion}, we can see that something similar appends.
     \caption{Sentiment label percentages for manual and automatic annotation.}
     \label{fig:pieplots_emotion}
 \end{figure*}
-
-\subsection{Wordclouds}
 
 \section{Conclusions}
 
@@ -296,7 +298,70 @@ We saw that good guidelines are essential to annotate manually, even if the task
 
 The outcomes of this work have shown that classification models have multiple sources of error and tend to under-perform when facing different scenarios such as unknown words, lexicon gaps or unspecified sentence contexts. This shows there is room for improvement in this task. For future work, it would be useful to analyze the performance of the models in multiple other related tasks, such as irony/ sarcasm detection or hate detection, instead of a pair of tasks. Other improvements on this evaluation would be to explore additional languages and other classification frameworks with different guidelines.
 
+\clearpage
+
 \bibliography{twitter_sentiment_emotion}
 \bibliographystyle{acl_natbib}
+
+\appendix
+
+\section{Wordclouds}
+\label{app:wordclouds}
+
+\begin{figure*}[ht]
+    \centering
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_negative_manual.png}}
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_negative_auto.png}}
+    \caption{Wordclouds for manual and automatic negative tweets.}
+    \label{fig:wordclouds_negative}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_neutral_manual.png}}
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_neutral_auto.png}}
+    \caption{Wordclouds for manual and automatic neutral tweets.}
+    \label{fig:wordclouds_neutral}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_positive_manual.png}}
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_positive_auto.png}}
+    \caption{Wordclouds for manual and automatic positive tweets.}
+    \label{fig:wordclouds_positive}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_anger_manual.png}}
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_anger_auto.png}}
+    \caption{Wordclouds for manual and automatic anger tweets.}
+    \label{fig:wordclouds_anger}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_joy_manual.png}}
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_joy_auto.png}}
+    \caption{Wordclouds for manual and automatic joy tweets.}
+    \label{fig:wordclouds_joy}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_optimism_manual.png}}
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_optimism_auto.png}}
+    \caption{Wordclouds for manual and automatic optimism tweets.}
+    \label{fig:wordclouds_optimism}
+\end{figure*}
+
+\begin{figure*}[ht]
+    \centering
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_sadness_manual.png}}
+    \subfloat{\includegraphics[width=0.49\linewidth]{wordcloud_sadness_auto.png}}
+    \caption{Wordclouds for manual and automatic sadness tweets.}
+    \label{fig:wordclouds_sadness}
+\end{figure*}
 
 \end{document}
