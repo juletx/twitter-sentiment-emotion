@@ -45,35 +45,35 @@
 
 \author{Oihane Cantero \\
   UPV/EHU \\
-  \texttt{email@domain} \\\And
+  ocantero003@ikasle.ehu.eus \\\And
   Julen Etxaniz \\
   UPV/EHU \\
   jetxaniz007@ikasle.ehu.eus \\\And
-  Jose Javier Saiz \\
+  José Javier Saiz \\
   UPV/EHU \\
-  \texttt{email@domain} \\}
+  jsaiz014@@ikasle.ehu.eus \\}
 
 \date{}
 
 \begin{document}
 \maketitle
 \begin{abstract}
-This corpus is a monolingual resource of unique tweets about product reviews, with each tweet paired with an adversarial sentence. Both original and adversarial tweets are manually and automatically annotated according to sentiment polarity (positive, negative, neutral). The objective is to compare and evaluate both types of annotation.
+This corpus is a monolingual resource of unique tweets about product reviews, with each tweet paired with an adversarial sentence. Both original and adversarial tweets are manually and automatically annotated according to sentiment polarity (positive, negative, neutral) and emotion (joy, anger, optimism, sadness). The objective is to compare and evaluate both types of annotation. We created some guidelines to help in manual annotation and saw that there are differences between manual and automatic annotations and also between annotators of the manual annotation.
 \end{abstract}
 
 \section{Introduction}
 
-This corpus is a monolingual resource of unique English tweets about technology, with each tweet paired with an adversarial sentence. Both original and adversarial tweets are manually and automatically annotated according to sentiment polarity (positive, negative, neutral) and emotions (joy, anger, sadness, optimism). For automatic annotation, the TweetEval \cite{barbieri-etal-2020-tweeteval} evaluation framework  was used, which covers both sentiment polarity and stance detection for Twitter-specific data, among other classification tasks. The objective is to compare and evaluate both types of annotation.
+This corpus is a monolingual resource of unique English tweets about technology, and each tweet is paired with an adversarial sentence. Both original and adversarial tweets are manually and automatically annotated according to sentiment polarity (positive, negative, neutral) and emotions (joy, anger, sadness, optimism). For automatic annotation, the TweetEval \cite{barbieri-etal-2020-tweeteval} evaluation framework  was used, which covers both sentiment polarity and emotion detection for Twitter-specific data, among other classification tasks. The objective is to compare and evaluate both types of annotation.
 
-The aim of this resource is to compare the annotations of tweets about technology and their adversarial sentences. It will also be interesting to compare these annotations when we do it by hand or automatically. The results will show whether the models are affected in their performance on classification tasks when faced with adversarial samples. If performance is significantly compromised by this phenomenon, improvements in the criteria used to generate the models may be proposed.
+The aim of this resource is to compare the automatic annotations of tweets about technology and their adversarial sentences. The results will show whether the automatic annotation model is affected in their performance on classification tasks when faced with adversarial samples. If performance is significantly compromised by this phenomenon, improvements in the criteria used to generate the models may be proposed.
 
-\section{Related work}
+To create adversarial tweets, we used the Adversary\footnote{\url{https://github.com/airbnb/artificial-adversary}} library, that allows to create different kinds of adversarial attacks.
 
 \section{Material and methods}
 
 \subsection{Data statement}
 
-A data statement is a document which serves as the contextualization and description of a data set, usually within the Natural Language Processing context \cite{bender-friedman-2018-data}. It was proposed to make the data sets more understandable for any user and overall, to avoid bad practices within the research and professional practice. In the following sections, we are going to cover the data statement for this corpus so to explain the decisions and reasons behind our work.
+A data statement is a document which serves as the contextualization and description of a data set, usually within the Natural Language Processing context \cite{bender-friedman-2018-data}. It was proposed to make the datasets more understandable for any user and overall, to avoid bad practices within the research and professional practice. In the following sections, we are going to cover the data statement for this corpus so to explain the decisions and reasons behind our work.
 
 The resource and code are publicly available at GitHub\footnote{\url{https://github.com/juletx/twitter-sentiment}}. The code is licensed under the MIT open source license. All non-code materials provided are made available under the terms of the CC BY 4.0 license
 (Creative Commons Attribution 4.0 International license).
@@ -112,9 +112,11 @@ After the first annotation, we realized that we needed to update the guidelines 
 
 When annotating sentiments, some tweets seemed to be ironic or sarcastic, and it was difficult to decide a tag. Since irony makes the "intended meaning [...] appear on the surface to express the opposite" \cite{OUP2022}, we decided for those cases expressing irony or sarcasm to label the opposite sentiment to the overall sentiment when taken literally. 
 
-Another problem for which a clear guideline was needed was tweets with contradicting sentiments. For this case, we decided to keep the overall sentiment to avoid using too many neutral tags.
+Another problem for which a clear guideline was needed was tweets with contradicting sentiments, tweets that have both positive and negative sentiments. For this case, we decided to keep the overall sentiment, assuming that there is always one sentiment that is stronger than the other, to avoid using too many neutral tags.
 
-When there is no clear emotion, we decided to select the \textit{joy} tag because it is the term with the broadest meaning among the possible options. Also, if there is uncertainty between the \textit{joy} and \textit{optimism} sentiments, we also decided to select \textit{joy} for the same reason.
+When there was no clear emotion, we decided to select the \textit{joy} tag because it is the term with the broadest meaning among the possible options. 
+
+Also, we found that we had some uncertainty between the \textit{joy} and \textit{optimism} emotions, as they are the two "positive" emotions we had, and sometimes we weren't sure which one was more appropriate, so we also decided to select \textit{joy} for the same reason.
 
 These guidelines are summarized and exemplified in Table \ref{tab:guidelines}.
 
@@ -141,7 +143,7 @@ Initially, a sample of the first 20 instances was shared among the annotators. T
 \begin{tabular}{l|lll|lll}
 \hline
 \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Text}}} & \multicolumn{3}{c}{\textbf{Sentiment}} & \multicolumn{3}{c}{\textbf{Emotion}} \\ \cline{2-7} 
-\multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{julen}} & \multicolumn{1}{c}{\textbf{oihane}} & \multicolumn{1}{c}{\textbf{javier}} & \multicolumn{1}{c}{\textbf{julen}} & \multicolumn{1}{c}{\textbf{oihane}} & \multicolumn{1}{c}{\textbf{javier}} \\ \hline
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{Julen}} & \multicolumn{1}{c}{\textbf{Oihane}} & \multicolumn{1}{c}{\textbf{Javier}} & \multicolumn{1}{c}{\textbf{Julen}} & \multicolumn{1}{c}{\textbf{Oihane}} & \multicolumn{1}{c}{\textbf{Javier}} \\ \hline
 \textit{\begin{tabular}[c]{@{}l@{}}just put a CD into my MacBook \\ to burn it and my computer \\ is literally trembling with \\ reawakened recognition\end{tabular}} & negative & positive & negative & anger & joy & joy \\ \hline
 \textit{\begin{tabular}[c]{@{}l@{}}oh yeah tesla well what about \\ a car that just logs into your \\ tiktok acct and drives you to \\ starbucks\end{tabular}} & neutral & positive & negative & joy & joy & anger \\ \hline
 \textit{\begin{tabular}[c]{@{}l@{}}\#100DaysOfCode Haven’t \\ updated in a while due to not \\ feeling well, just been reviewing \\ some HTML/CSS \&amp; \\ JavaScript until I feel better to \\ take on new concepts. Also \\ been watching mock interviews :)\end{tabular}} & negative & negative & negative & sadness & optimism & optimism \\ \hline
@@ -157,9 +159,9 @@ Table \ref{tab:agreement} shows that there is moderate agreement and a low Kappa
 \toprule
         pairs &  agreement\_sentiment &  kappa\_sentiment &  agreement\_emotion &  kappa\_emotion \\
 \midrule
- julen oihane & 70.0 $\rightarrow$ \textbf{65.0} & 53.8 $\rightarrow$ \textbf{45.1} & 55.0 $\rightarrow$ \textbf{70.0} & 33.3 $\rightarrow$ \textbf{49.2} \\
- julen javier & 60.0 $\rightarrow$ \textbf{70.0} & 40.1 $\rightarrow$ \textbf{49.4} & 40.0 $\rightarrow$ \textbf{70.0} & 13.0 $\rightarrow$ \textbf{46.9} \\
-javier oihane & 60.0 $\rightarrow$ \textbf{55.0} & 39.2 $\rightarrow$ \textbf{32.3} & 65.0 $\rightarrow$ \textbf{70.0} & 46.2 $\rightarrow$ \textbf{50.0} \\
+ Julen Oihane & 70.0 $\rightarrow$ \textbf{65.0} & 53.8 $\rightarrow$ \textbf{45.1} & 55.0 $\rightarrow$ \textbf{70.0} & 33.3 $\rightarrow$ \textbf{49.2} \\
+ Julen Javier & 60.0 $\rightarrow$ \textbf{70.0} & 40.1 $\rightarrow$ \textbf{49.4} & 40.0 $\rightarrow$ \textbf{70.0} & 13.0 $\rightarrow$ \textbf{46.9} \\
+Javier Oihane & 60.0 $\rightarrow$ \textbf{55.0} & 39.2 $\rightarrow$ \textbf{32.3} & 65.0 $\rightarrow$ \textbf{70.0} & 46.2 $\rightarrow$ \textbf{50.0} \\
 \midrule
       average & 63.3 $\rightarrow$ \textbf{63.3} & 44.4 $\rightarrow$ \textbf{42.3} & 53.3 $\rightarrow$ \textbf{70.0} & 30.8 $\rightarrow$ \textbf{48.7} \\
 \bottomrule
@@ -172,7 +174,7 @@ Thereafter each annotator was given a different set of 40 tweets for annotation.
 
 \subsection{Automatic annotation}
 
-These tweets were also labelled using automatic models. Models trained for the TweetEval \cite{barbieri-etal-2020-tweeteval} evaluation framework were used. This framework covers many classification tasks that include sentiment and emotion classification. 
+All the tweets were also labelled using automatic models. Models trained for the TweetEval \cite{barbieri-etal-2020-tweeteval} evaluation framework were used. This framework covers many classification tasks that include sentiment and emotion classification. 
 
 The base RoBERTa \cite{liu2019roberta} model was pretrained using 58M English tweets. Then each model is finetuned using specific data for that task. SemEval 2017 Subtask A data \cite{rosenthal2019semeval} is used for sentiments and SemEval 2018 Affects in Tweets \cite{mohammad-etal-2018-semeval} is used for emotions.
 
@@ -180,9 +182,12 @@ The fine-tuned models are available in HuggingFace and that makes them very easy
 
 \subsection{Adversarial examples}
 
-We will create some adversarial tweets automatically to measure the impact in the metrics of the models. The aim of these adversarial examples is to confuse the models while maintaining the manual label. Therefore, if we generate the adversarial examples correctly, they should have the same meaning and sense, so there is no need to annotate them. As these attacks can easily be replicated, we decided not to include them in the final resource.
+We created some adversarial tweets automatically to measure the impact in the metrics of the models. The aim of these adversarial examples is to confuse the models while maintaining the manual label. Therefore, if we generate the adversarial examples correctly, they should have the same meaning and sense, so there is no need to annotate them again manually. 
 
-We used the Adversary\footnote{\url{https://github.com/airbnb/artificial-adversary}} library to generate 8 generic attacks. These attacks are not specifically prepared for our models, they are simple attacks that can be tested on any type of model. Words are selected with a probability of 0.3 and the selected attack is applied to those words. Attacks can also be combined, but we decide to apply them separately for simplicity. An example of each attack can be seen in Table \ref{tab:adversarial}. This tweet was manually annotated as negative sentiment and anger emotion.
+We used the Adversary\footnote{\url{https://github.com/airbnb/artificial-adversary}} library to generate 8 generic attacks that include swapping words or letters among others. These attacks are not specifically prepared for our models, they are simple attacks that can be tested on any type of model. Words are selected with a probability of 0.3 and the selected attack is applied to those words. Attacks can also be combined, but we decide to apply them separately for simplicity. An example of each attack can be seen in Table \ref{tab:adversarial}, and we can compare the manual annotation with all the adversarial annotations. We can first see that for the original tweet, the manual and automatic annotations doesn't match for emotion. And some adversarial attacks change the sentiment from negative to neutral and the emotion from sadness to anger.
+
+All the adversarial tweets are available in the file \textit{tweets\_adv.csv}, and their annotations are in files \textit{tweets\_adv\_sent.csv} for sentiment analysis and \textit{tweets\_adv\_emot.csv} for emotion detection.
+
 
 \begin{table*}[ht]
 \centering
@@ -190,7 +195,8 @@ We used the Adversary\footnote{\url{https://github.com/airbnb/artificial-adversa
 \hline
 \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Type}}} & \multicolumn{1}{c}{\multirow{2}{*}{\textbf{Sentence}}} & \multicolumn{2}{c}{\textbf{Label}} \\ \cline{3-4} 
 \multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{1}{c}{\textbf{Sentiment}} & \multicolumn{1}{c}{\textbf{Emotion}} \\ \hline
-Original & having no sort of WiFi actually sucks & negative & sadness \\
+Manual Original & having no sort of WiFi actually sucks & negative & anger \\
+Automatic Original & having no sort of WiFi actually sucks & negative & sadness \\
 Swap words & having no sort WiFi of actually sucks & negative & sadness \\
 Remove space & having-no`sort of WiFi actually sucks & negative & anger \\
 Replace letters with symbols & having no \$or7 of WiFi actually \$u\{[\}kS & neutral & sadness \\
@@ -204,9 +210,23 @@ Change case & having no SORT of WiFI actually sucks & negative & anger \\ \hline
 \label{tab:adversarial}
 \end{table*}
 
+\subsection{Resource}
+
+The resource is composed of six files:
+\begin{itemize}
+    \item \textit{tweets.csv }: The tweets with the manual and automatic annotations for sentiment analysis and emotion detection.
+    \item \textit{tweets\_ita.csv}: The first 20 tweets with the annotations made by each of the annotators for both tasks with the initial guidelines. It is used to calculate the Inter Annotator Agreement with the first guidelines.
+    \item \textit{tweets\_ita2.csv}:  The first 20 tweets with the annotations made by each of the annotators for both tasks with the updated guidelines. It is used to calculate the Inter Annotator Agreement once we updated the guidelines.
+    \item \textit{tweets\_adv.csv}: All the original tweets and the result of each of the 8 adversarial attacks for each of them.
+    \item \textit{tweets\_adv\_sent.csv}: The result of the manual annotation and the automatic annotation for the original tweets and all the adversarial tweets for sentiment analysis.
+    \item \textit{tweets\_adv\_emot.csv}:The result of the manual annotation and the automatic annotation for the original tweets and all the adversarial tweets for emotion detection.
+\end{itemize}
+
+We decided to separate the resource into these six files to avoid having a big file with all the information that would be unintelligible and with a huge number of columns.
+
 \section{Results}
 
-We will compare the results and extract some conclusions about the performance of the models. We will visualize the percentage of tweets from each class in the manual and automatic annotations. We will also visualize the most common words of each class in word clouds.
+We compare the results and extract some conclusions about the performance of the models. We visualize the percentage of tweets from each class in the manual and automatic annotations. We also visualize the most common words of each class in word clouds.
 
 \subsection{F1 scores}
 
@@ -234,7 +254,7 @@ insert\_duplicate\_characters &      72.5 &     72.5 &      63.6 &       63.9 & 
 \label{tab:f1_scores}
 \end{table*}
 
-We also see that in sentiment analysis, the results for the three tags are nearly equivalent (around 60-70) for every type of sentences. In emotion detection, the scores for anger and joy are also quite similar (around 60-70 also), the ones for sadness are a little worse (around 40), but the ones for optimism are very bad for both original and adversarial sentences (around 25).
+We also see that in sentiment analysis, the results for the three tags are nearly equivalent (around 60-70) for every type of sentences. In emotion detection, the scores for anger and joy are also quite similar (also around 60-70), the ones for sadness are a little worse (around 40), but the ones for optimism are very bad for both original and adversarial sentences (around 25).
 
 Even if in overall results for adversarial sentences are worse than the original ones, we can remark that some of the adversarial attacks doesn't decrease F-score, they even improve it in some cases. The best results for sentiment analysis are for the \textit{swap\_words} attack and this same attack performs quite well in emotion detection. And for emotion detection the best results are for \textit{remove\_spacing}, that doesn't receive so bad results for sentiment analysis. So watching these results, we may conclude that removing a space of the sentence or word order doesn't really matter for these tasks.
 
@@ -268,6 +288,8 @@ And in Figure \ref{fig:scatterplot}, we can see the difference in scores between
 
 \subsection{Pieplots}
 
+We drew some pieplots to compare the distribution of the tags of each of the tasks. 
+
 In Figure \ref{fig:pieplots_sentiment} we can see the distribution of each of the tags of the sentiment analysis task. In the manual distribution, positive and negative tags are equally distributed, and are less neutral tags. In the automatic annotation, the distribution of positive and negative tags are also equally distributed, but the majority class is neutral. This can be because while manually annotating, we tend to avoid neutrality, and we try to put a positive or negative tag at all costs. Another reason may be that we decided to take the overall sentiment when there are positive and negative sentiments in the same tweets, and maybe the model makes an average and classifies them as neutral.
 
 \begin{figure*}[ht]
@@ -278,7 +300,7 @@ In Figure \ref{fig:pieplots_sentiment} we can see the distribution of each of th
     \label{fig:pieplots_sentiment}
 \end{figure*}
 
-In Figure \ref{fig:pieplots_emotion}, we can see that something similar appends. In our guidelines, we decided that we will put the joy tag when we will have doubts. This increased our manual annotations' joy tags number. For optimism and anger, the results are quite similar but for anger, because the automatic annotation puts more than the manual one. This should be because our guidelines implies that there will be more joy, because we put it when there is no emotion and when we had doubts between joy and optimism, as we think that it is the more general emotion. 
+In Figure \ref{fig:pieplots_emotion}, we can see that something similar happens. In our guidelines, we decided that we will put the joy tag when we will have doubts. This increased our manual annotations' joy tags number. For optimism and anger, the results are quite similar but for anger, because the automatic annotation puts more than the manual one. This should be because our guidelines implies that there will be more joy, because we put it when there is no emotion and when we had doubts between joy and optimism, as we think that it is the more general emotion. 
 
 \begin{figure*}[ht]
     \centering
